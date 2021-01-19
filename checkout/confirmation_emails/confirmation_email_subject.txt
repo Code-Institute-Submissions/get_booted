@@ -1,1 +1,1 @@
-Boutique Ado Confirmation for Order Number {{ order.order_number }}
+Get Booted Confirmation for Order Number {{ order.order_number }}
