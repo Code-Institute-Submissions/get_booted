@@ -4,7 +4,7 @@ html {
 
 body {
      background: url('/media/homepage_background_cropped2.jpg') no-repeat center center fixed; 
-    background-color: #ffcb9a;
+    background-color: #116466;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #2c3531;
@@ -81,7 +81,7 @@ body {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: #d1e8e2;
+	background: #ffcb9a;
 	z-index: -1;
 }
 
