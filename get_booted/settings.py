@@ -117,21 +117,22 @@ WSGI_APPLICATION = 'get_booted.wsgi.application'
 # # Database
 # # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-# if 'DATABASE_URL' in os.environ:
-#     DATABASES = {
-#         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-#     }
-# else:
-#     DATABASES = {
-#         'default': {
-#             'ENGINE': 'django.db.backends.sqlite3',
-#             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#         }
-#     }
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
-DATABASES = {
-    'default': dj_database_url.parse('postgres://xuqbkwwmhelaim:02d207a6b05816675b6adeb5758ec3d72ca3c1d94c10eaf097723644031d442b@ec2-52-208-138-246.eu-west-1.compute.amazonaws.com:5432/d6lujmln1k5n67')
-}
+
+# DATABASES = {
+#     'default': dj_database_url.parse('postgres://xuqbkwwmhelaim:02d207a6b05816675b6adeb5758ec3d72ca3c1d94c10eaf097723644031d442b@ec2-52-208-138-246.eu-west-1.compute.amazonaws.com:5432/d6lujmln1k5n67')
+# }
 
 
 # Password validation
