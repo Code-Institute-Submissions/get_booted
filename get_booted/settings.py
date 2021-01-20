@@ -130,7 +130,7 @@ else:
     }
 
 # # DATABASES = {
-#     'default': dj_database_url.parse('postgres://sbkdcjpdhblsdk:a53cc63fa2148b2e555b758a070eea8b97de5b076ba3bd8a943a3247c0aa5111@ec2-34-248-148-63.eu-west-1.compute.amazonaws.com:5432/d2bcmgbc3c67d4')
+#     'default': dj_database_url.parse('postgres://xuqbkwwmhelaim:02d207a6b05816675b6adeb5758ec3d72ca3c1d94c10eaf097723644031d442b@ec2-52-208-138-246.eu-west-1.compute.amazonaws.com:5432/d6lujmln1k5n67')
 # }
 
 
@@ -184,7 +184,7 @@ if 'USE_AWS' in os.environ:
     }
 
 if 'USE_AWS' in os.environ:
-    AWS_STORAGE_BUCKET_NAME = 'tomod24-get_booted'
+    AWS_STORAGE_BUCKET_NAME = 'tomod24-boutique.ado'
     AWS_S3_REGION_NAME = 'us-east-1'
     AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
     AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
@@ -203,7 +203,7 @@ if 'USE_AWS' in os.environ:
 # Stripe
 FREE_DELIVERY_THRESHOLD = 50
 STANDARD_DELIVERY_PERCENTAGE = 10
-STRIPE_CURRENCY = 'usd'
+STRIPE_CURRENCY = 'gbp'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
