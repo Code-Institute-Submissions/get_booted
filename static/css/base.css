@@ -28,10 +28,10 @@ body {
     width: fit-content;
 }
 
-
+/* Shop now colour theme*/
 .shop-now-button {
-    background: #ffcb9a;
-    color: #116466;
+    background: #116466;
+    color: #ffcb9a;
     min-width: 260px;
 }
 
