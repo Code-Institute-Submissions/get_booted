@@ -12,10 +12,10 @@
 {% block content %}
 
 <!-- Blog Entries Column -->
-        <div class="col-md-8 mt-3 left">
+        <div class="col-12 col-md-10 offset-md-1 blogs-posted">
             {% for post in post_list %}
             <div class="card mb-4">
-                <div class="card-body">
+                <div class="card-body center">
                     <h2 class="card-title">{{ post.title }}</h2>
                     <p class="card-text text-muted h6">{{ post.author }} | {{ post.created_on}} </p>
                     <p class="card-text">{{post.content|slice:":200" }}</p>
@@ -57,3 +57,4 @@
         })
     </script>
 {% endblock %}
+
