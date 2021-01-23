@@ -18,36 +18,35 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link  mr-5" style="color: #d9b08c;" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link  mr-5" style="color: #d9b08c;" href="#" id="mens-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Mens
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="mens">
                 <a href="{% url 'products' %}?category=mens_boots" class="dropdown-item">Mens Boots</a>
-                <a href="{% url 'products' %}?category=mens_gear" class="dropdown-item">Mens Gears</a>
+                <a href="{% url 'products' %}?category=mens_gear" class="dropdown-item">Mens Gear</a>
                 <a href="{% url 'products' %}?category=mens_boots,mens_gear" class="dropdown-item">All Mens</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link mr-5" style="color: #d9b08c;" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Homeware
+            <a class="logo-font font-weight-bold nav-link mr-5" style="color: #d9b08c;" href="#" id="womens-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Womens
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="{% url 'products' %}?category=bed_bath" class="dropdown-item">Bed &amp; Bath</a>
-                <a href="{% url 'products' %}?category=kitchen_dining" class="dropdown-item">Kitchen &amp; Dining</a>
-                <a href="{% url 'products' %}?category=bed_bath,kitchen_dining" class="dropdown-item">All Homeware</a>
+            <div class="dropdown-menu border-0" aria-labelledby="womens">
+                <a href="{% url 'products' %}?category=womens_boots" class="dropdown-item">Womens Boots</a>
+                <a href="{% url 'products' %}?category=womens_gear" class="dropdown-item">Womens Gear</a>
+                <a href="{% url 'products' %}?category=womens_boots,womens_gear" class="dropdown-item">All Womens</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link" style="color: #d9b08c;" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Special Offers
+            <a class="logo-font font-weight-bold nav-link" style="color: #d9b08c;" href="#" id="kids-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Kids
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
-                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
-                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
-                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
+            <div class="dropdown-menu border-0" aria-labelledby="kids">
+                <a href="{% url 'products' %}?category=kids_boots" class="dropdown-item">Kids boots</a>
+                <a href="{% url 'products' %}?category=kids_gear" class="dropdown-item">Kids Gear</a>
+                <a href="{% url 'products' %}?category=kids_boots,kids_gear" class="dropdown-item">All Kids</a>
             </div>
         </li>
     </ul>

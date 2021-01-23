@@ -11,36 +11,20 @@
     "pk": 2,
     "model": "products.category",
     "fields": {
-      "name": "bed_bath",
-      "friendly_name": "Bed & Bath"
+      "name": "womens_boots",
+      "friendly_name": "Womens Boots"
     }
   },
   {
     "pk": 3,
     "model": "products.category",
     "fields": {
-      "name": "clearance",
-      "friendly_name": "Clearance"
+      "name": "kids_gear",
+      "friendly_name": "Kids Gear"
     }
   },
   {
     "pk": 4,
-    "model": "products.category",
-    "fields": {
-      "name": "deals",
-      "friendly_name": "Deals"
-    }
-  },
-  {
-    "pk": 5,
-    "model": "products.category",
-    "fields": {
-      "name": "essentials",
-      "friendly_name": "Essentials"
-    }
-  },
-  {
-    "pk": 6,
     "model": "products.category",
     "fields": {
       "name": "mens gear",
@@ -48,19 +32,19 @@
     }
   },
   {
-    "pk": 7,
+    "pk": 5,
     "model": "products.category",
     "fields": {
-      "name": "kitchen_dining",
-      "friendly_name": "Kitchen & Dining"
+      "name": "womens_gear",
+      "friendly_name": "Womens Gear"
     }
   },
   {
-    "pk": 8,
+    "pk": 6,
     "model": "products.category",
     "fields": {
-      "name": "new_arrivals",
-      "friendly_name": "New Arrivals"
+      "name": "kids_boots",
+      "friendly_name": "Kids Boots"
     }
   }
 ]
