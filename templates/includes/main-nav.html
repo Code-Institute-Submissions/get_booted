@@ -19,13 +19,12 @@
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link  mr-5" style="color: #d9b08c;" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Clothing
+                Mens
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=activewear,essentials" class="dropdown-item">Activewear &amp; Essentials</a>
-                <a href="{% url 'products' %}?category=jeans" class="dropdown-item">Jeans</a>
-                <a href="{% url 'products' %}?category=shirts" class="dropdown-item">Shirts</a>
-                <a href="{% url 'products' %}?category=activewear,essentials,jeans,shirts" class="dropdown-item">All Clothing</a>
+            <div class="dropdown-menu border-0" aria-labelledby="mens">
+                <a href="{% url 'products' %}?category=mens_boots" class="dropdown-item">Mens Boots</a>
+                <a href="{% url 'products' %}?category=mens_gear" class="dropdown-item">Mens Gears</a>
+                <a href="{% url 'products' %}?category=mens_boots,mens_gear" class="dropdown-item">All Mens</a>
             </div>
         </li>
 

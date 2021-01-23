@@ -27,7 +27,6 @@
             {% for post in post_list %}
             <div class="card mb-4">
                 <div class="card-body center">
-                    <h2 class="logo-font">Products</h2>
                     <h2 class="card-title">{{ post.title }}</h2>
                     <p class="card-text text-muted h6">{{ post.author }} | {{ post.created_on}} </p>
                     <p class="card-text">{{post.content|slice:":200" }}</p>
