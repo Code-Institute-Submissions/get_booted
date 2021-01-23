@@ -28,6 +28,12 @@ body {
     width: fit-content;
 }
 
+.nav-item-blog
+{
+    float: right;
+    color: green;
+}
+
 /* Shop now colour theme*/
 .shop-now-button {
     background: #116466;
