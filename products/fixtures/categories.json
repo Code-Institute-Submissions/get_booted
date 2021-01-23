@@ -3,7 +3,7 @@
     "pk": 1,
     "model": "products.category",
     "fields": {
-      "name": "mens boots",
+      "name": "mens_boots",
       "friendly_name": "Mens Boots"
     }
   },
@@ -27,7 +27,7 @@
     "pk": 4,
     "model": "products.category",
     "fields": {
-      "name": "mens gear",
+      "name": "mens_gear",
       "friendly_name": "Mens Gear"
     }
   },
