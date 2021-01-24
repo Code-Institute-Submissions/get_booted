@@ -3,7 +3,7 @@ html {
 }
 
 body {
-     background: url('/media/homepage_background_cropped2.jpg') no-repeat center center fixed; 
+    background: url('/media/homepage_background_cropped2.jpg') no-repeat center center fixed; 
     background-color: #116466;
     background-size: cover;
     height: calc(100vh - 164px);
@@ -87,9 +87,24 @@ body {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: #d1e8e2;
-	z-index: -1;
+	background: #ffcb9a;
+    z-index: -1;
+    color: black;
+    
 }
+
+.overlay-404 {
+	position: fixed;
+	background: #ffcb9a;
+    z-index: -1;
+    color:black;
+    font-family: 'arial';
+    min-width: 100%;
+    min-height: 100%;
+}
+
+display-404
+
 
 a.category-badge > span.badge:hover {
     background: #212529 !important;
