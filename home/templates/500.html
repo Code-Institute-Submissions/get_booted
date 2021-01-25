@@ -10,14 +10,15 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-12 col-md-6 my-auto">
-                <h3 class="display-4 logo-font" style="color: #d9b08c;"> You'll get booted away by our deals
-                </h3>
+    <div class="overlay-404"></div>
+    <div class="container-fluid-404">
+        <div class="row">
+            <div class="col text-center">
+                <h5 class="display-404 logo-font mt-4" style="color: black;"> The Site is Broke am Sorry.
+                </h5>
                 <div class="my-5">
                     <h3>
-                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
+                        <a href="{% url 'home' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Home page</a>
                     </h3>
                 </div>
             </div>
