@@ -87,17 +87,17 @@ body {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: #ffcb9a;
+	background: #d1e8e2;
     z-index: -1;
     color: black;
-    
+
 }
 
 .overlay-404 {
 	position: fixed;
-	background: #ffcb9a;
+	background: black;
     z-index: -1;
-    color:black;
+    color:#d1e8e2;
     font-family: 'arial';
     min-width: 100%;
     min-height: 100%;
@@ -106,7 +106,6 @@ body {
 .container-fluid-404 {
     margin-left: auto;
     margin-right: auto;
-
     text-align: center;
 }
 
