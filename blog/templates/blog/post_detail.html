@@ -16,11 +16,13 @@
                     <p class=" text-muted">{{ post.author }} | {{ post.created_on }}</p>
                     <div class="card-text ">
                         <p>{{ object.content | safe }}</p>
-                        <h2>Comments... </h2>
                     <hr>
+                        <h2>Comments... </h2>
+                    <br>
                         <div>
                             {% if not post.comments.all %}
-                                <p>No comments yet .. <a href="#">Add Comment</a></p>
+                                <p>No comments yet .. </p>
+                                <p><a href="#">Add Comment</a></p>
                             {% else %}
                                 {% for comment in post.comments.all %}
                                     <p><strong>{{ comment.name }} -</strong> {{ comment.date }}</p>
