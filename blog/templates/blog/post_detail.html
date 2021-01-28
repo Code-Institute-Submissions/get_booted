@@ -22,7 +22,7 @@
                         <div>
                             {% if not post.comments.all %}
                                 <p>No comments yet .. </p>
-                                <p><a href="#">Add Comment</a></p>
+                                <p><a href="{% url 'add_comment' post.slug %}">Add Comment</a></p>
                             {% else %}
                                 {% for comment in post.comments.all %}
                                     <p><strong>{{ comment.name }} -</strong> {{ comment.date }}</p>
