@@ -1,6 +1,6 @@
 from django.contrib.auth.models import User
 from django.urls import reverse_lazy
-from django.views.generic import ListView, DetailView, CreateView
+from django.views.generic import ListView, DetailView, CreateView, UpdateView
 from .models import Post, Comment
 from .forms import CommentForm
 
@@ -17,13 +17,6 @@ class AddCommentView(CreateView):
     form_class = CommentForm
     template_name = 'blog/add_comment.html'
 
-class EditCommentView(UpdateView):
-    model = Comment
-    form_class = CommentForm
-    template_name = 'blog/edit_comment.html'
-    
-    success_url = reverse_lazy("blog")
-
     def form_valid(self, form):
         post = Post.objects.filter(slug=self.kwargs['slug'])
         if self.request.user.pk:
@@ -36,4 +29,9 @@ class EditCommentView(UpdateView):
         form.instance.post_id = post[0].id
         return super().form_valid(form)
 
+class EditCommentView(UpdateView):
+    model = Comment
+    form_class = CommentForm
+    template_name = 'blog/edit_comment.html'
+    
     success_url = reverse_lazy("blog")
