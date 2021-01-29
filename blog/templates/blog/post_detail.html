@@ -25,16 +25,24 @@
                                 <p><a href="{% url 'add_comment' post.slug %}">Add Comment</a></p>
                             {% else %}
                                 {% for comment in post.comments.all %}
-                                    <div class="comments {% if forloop.counter > 3 %}d-none{% endif %}">
+                                    <div class="comments {% if forloop.counter > 3 %}d-none more-comments{% endif %}">
                                         <p><strong>{{ comment.name }} -</strong> {{ comment.date }}</p>
                                         <p>{{ comment.body }}</p>
                                         <hr>
                                     </div>
                                 {% endfor %}
-                                {% if post.comments.all|length > 3 %}
-                                    <button class="btn btn-secondary">Show All Comments</button>
-                                {% endif %}
-                                <p><a class="btn btn-primary" href="{% url 'add_comment' post.slug %}">Add Comment</a></p>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <a class="btn btn-primary" href="{% url 'add_comment' post.slug %}">Add
+                                            Comment</a>
+                                    </div>
+                                    {% if post.comments.all|length > 3 %}
+                                        <div class="col-6" id="show-all-comments">
+                                            <a class="btn btn-secondary" href="javascript:show_all_comments();">Show All
+                                                Comments</a>
+                                        </div>
+                                    {% endif %}
+                                </div>
                             {% endif %}
                         </div>
                     </div>
@@ -42,4 +50,5 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="{% static 'blog/js/post_detail.js' %}"></script>
 {% endblock content %}
