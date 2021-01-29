@@ -16,19 +16,25 @@
                     <p class=" text-muted">{{ post.author }} | {{ post.created_on }}</p>
                     <div class="card-text ">
                         <p>{{ object.content | safe }}</p>
-                    <hr>
+                        <hr>
                         <h2>Comments... </h2>
-                    <br>
+                        <br>
                         <div>
                             {% if not post.comments.all %}
                                 <p>No comments yet .. </p>
                                 <p><a href="{% url 'add_comment' post.slug %}">Add Comment</a></p>
                             {% else %}
                                 {% for comment in post.comments.all %}
-                                    <p><strong>{{ comment.name }} -</strong> {{ comment.date }}</p>
-                                    <p>{{ comment.body }}</p>
-                                    <hr>
+                                    <div class="comments {% if forloop.counter > 3 %}d-none{% endif %}">
+                                        <p><strong>{{ comment.name }} -</strong> {{ comment.date }}</p>
+                                        <p>{{ comment.body }}</p>
+                                        <hr>
+                                    </div>
                                 {% endfor %}
+                                {% if post.comments.all|length > 3 %}
+                                    <button class="btn btn-secondary">Show All Comments</button>
+                                {% endif %}
+                                <p><a class="btn btn-primary" href="{% url 'add_comment' post.slug %}">Add Comment</a></p>
                             {% endif %}
                         </div>
                     </div>
