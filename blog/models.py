@@ -27,6 +27,7 @@ class Comment(models.Model):
     name = models.CharField(max_length=255)
     body = models.TextField()
     date = models.DateTimeField(auto_now_add=True)
+    comment_owner = models.ForeignKey(User, related_name="comment_owner", on_delete=models.CASCADE)
 
     def __str__(self):
         return '%s - %s' %(self.post.title, self.name)
