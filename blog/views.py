@@ -17,6 +17,13 @@ class AddCommentView(CreateView):
     form_class = CommentForm
     template_name = 'blog/add_comment.html'
 
+class EditCommentView(UpdateView):
+    model = Comment
+    form_class = CommentForm
+    template_name = 'blog/edit_comment.html'
+    
+    success_url = reverse_lazy("blog")
+
     def form_valid(self, form):
         post = Post.objects.filter(slug=self.kwargs['slug'])
         if self.request.user.pk:
