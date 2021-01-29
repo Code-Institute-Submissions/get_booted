@@ -1,3 +1,4 @@
+from django.contrib.auth.models import User
 from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView
 from .models import Post, Comment
@@ -18,7 +19,14 @@ class AddCommentView(CreateView):
 
     def form_valid(self, form):
         post = Post.objects.filter(slug=self.kwargs['slug'])
+        if self.request.user.pk:
+            # Make sure authenticated user is owner
+            form.instance.comment_owner = self.request.user
+        else:
+            # assuming user.username = admin is the superuser, they will be the owner of anonymous comments
+            user = User.objects.get(username='admin')
+            form.instance.comment_owner = user
         form.instance.post_id = post[0].id
         return super().form_valid(form)
-        
+
     success_url = reverse_lazy("blog")
