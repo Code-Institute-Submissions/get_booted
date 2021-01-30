@@ -29,9 +29,13 @@ class AddCommentView(CreateView):
         form.instance.post_id = post[0].id
         return super().form_valid(form)
 
+    success_url = reverse_lazy("blog")
+
 class EditCommentView(UpdateView):
     model = Comment
     form_class = CommentForm
     template_name = 'blog/edit_comment.html'
     
     success_url = reverse_lazy("blog")
+
+

@@ -28,6 +28,9 @@
                                     <div class="comments {% if forloop.counter > 3 %}d-none more-comments{% endif %}">
                                         <p><strong>{{ comment.name }} -</strong> {{ comment.date }}</p>
                                         <p>{{ comment.body }}</p>
+                                        {% if comment.comment_owner == request.user %}
+                                        <a href="{% url 'update_comment' pk=comment.id %}" class ="btn-secondary btn"> Edit Comment</a>
+                                        {% endif %}
                                         <hr>
                                     </div>
                                 {% endfor %}
