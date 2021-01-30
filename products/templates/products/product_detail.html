@@ -57,11 +57,57 @@
                                 <div class="col-12">
                                     <p><strong>Size:</strong></p>
                                     <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size'>
-                                        <option value="xs">XS</option>
-                                        <option value="s">S</option>
-                                        <option value="m" selected>M</option>
-                                        <option value="l">L</option>
-                                        <option value="xl">XL</option>
+                                        {% if product.category.name == 'kids_boots' %}
+                                                <option value="1">1</option>
+                                                <option value="1.5">1.5</option>
+                                                <option value="2">2</option>
+                                                <option value="2.5">2.5</option>
+                                                <option value="3" selected>3</option>
+                                                <option value="3.5">3.5</option>
+                                                <option value="4">4</option>
+                                                <option value="4.5">4.5</option>
+                                                <option value="5">5</option>
+                                                <option value="5.5">5.5</option>
+                                                <option value="6">6</option>
+                                            {% elif product.category.name == 'womens_boots' %}
+                                                <option value="4">4</option>
+                                                <option value="4.5">4.5</option>
+                                                <option value="5">5</option>
+                                                <option value="5.5">5.5</option>
+                                                <option value="6">6</option>
+                                                <option value="6.5">6.5</option>
+                                                <option value="7">7</option>
+                                                <option value="7.5" selected>7.5</option>
+                                                <option value="8">8</option>
+                                                <option value="8.5">8.5</option>
+                                                <option value="9">9</option>
+                                                <option value="9.5">9.5</option>
+                                                <option value="10">10</option>
+                                            {% elif  product.category.name == 'mens_boots' %}
+                                                <option value="5">5</option>
+                                                <option value="5.5">5.5</option>
+                                                <option value="6">6</option>
+                                                <option value="6.5">6.5</option>
+                                                <option value="7">7</option>
+                                                <option value="7.5">7.5</option>
+                                                <option value="8">8</option>
+                                                <option value="8.5">8.5</option>
+                                                <option value="9">9</option>
+                                                <option value="9.5">9.5</option>
+                                                <option value="10">10</option>
+                                                <option value="10.5" selected>10.5</option>
+                                                <option value="11">11</option>
+                                                <option value="11.5">11.5</option>
+                                                <option value="12">12</option>
+                                                <option value="12.5">12.5</option>
+                                                <option value="13">13</option>
+                                            {% else %}
+                                                <option value="xs">XS</option>
+                                                <option value="s">S</option>
+                                                <option value="m" selected>M</option>
+                                                <option value="l">L</option>
+                                                <option value="xl">XL</option>
+                                            {% endif %}
                                     </select>
                                 </div>
                             {% endif %}
