@@ -73,6 +73,10 @@ body {
     color: #000 !important;
 }
 
+.text-sand {
+    color: #ffcb9a;
+}
+
 .border-black {
     border: 1px solid black !important;
 }
@@ -200,6 +204,7 @@ input[name='q']::placeholder {
     overflow-x: hidden;
     overflow-y: auto;
 }
+
 
 /* -------------------------------- Media Queries */
 

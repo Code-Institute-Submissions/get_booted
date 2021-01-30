@@ -1,5 +1,5 @@
 <li class="list-inline-item">
-    <a class="text-black nav-link d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <a class=" nav-link d-block d-lg-none" style="color: #d9b08c;" href="#" id="mobile-search" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center">
             <div><i class="fas fa-search fa-lg"></i></div>
             <p class="my-0">Search</p>
@@ -12,7 +12,7 @@
                 <div class="input-group-append">
                     <button class="form-control form-control btn btn-black border border-black rounded-0" type="submit">
                         <span class="icon">
-                            <i class="fas fa-search"></i>
+                            <i class="fas fa-search" style="color: #d9b08c;"></i>
                         </span>
                     </button>
                 </div>
@@ -21,7 +21,7 @@
     </div>
 </li>
 <li class="list-inline-item">
-    <a class="color: #ffcb9a; nav-link d-block d-lg-none" href="{% url 'blog' %}">
+    <a class="nav-link d-block d-lg-none" style="color: #d9b08c;" href="{% url 'blog' %}">
         <div class="text-center">
             <div><i class="fas fa-blog fa-lg"></i></div>
             <p class="my-0">Blogs</p>
@@ -29,7 +29,7 @@
     </a>
 </li>
 <li class="list-inline-item dropdown">
-    <a class="color: #ffcb9a; nav-link d-block d-lg-none" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <a class="nav-link  d-block d-lg-none" style="color: #d9b08c;" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center">
             <div><i class="fas fa-user fa-lg"></i></div>
             <p class="my-0">My Account</p>
@@ -49,7 +49,7 @@
     </div>
 </li>
 <li class="list-inline-item">
-    <a class="{% if grand_total %}text-primary font-weight-bold{% else %}color: #ffcb9a;{% endif %} nav-link d-block d-lg-none" href="{% url 'view_bag' %}">
+    <a class="{% if grand_total %} text-primary font-weight-bold{% else %}{% endif %} nav-link d-block d-lg-none" style="color: #d9b08c;" href="{% url 'view_bag' %}">
         <div class="text-center">
             <div><i class="fas fa-shopping-bag fa-lg"></i></div>
             <p class="my-0">
