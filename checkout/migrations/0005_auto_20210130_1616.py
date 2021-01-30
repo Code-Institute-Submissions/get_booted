@@ -14,6 +14,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='order',
             name='country',
-            field=django_countries.fields.CountryField(max_length=20),
+            field=django_countries.fields.CountryField(max_length=2),
         ),
     ]
