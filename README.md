@@ -26,17 +26,20 @@ Get Booted website [https://tomod24-get-booted.herokuapp.com/](https://tomod24-g
 
 ## Testing Checkout Credentials
 
-**For checkout please use the following information below this is for testing purposes**** :**
+**For checkout, please use the following information below this is for testing purposes****:**
 
 **Card Payments**
 
-Card number: 4242 4242 4242 4242
+-   No authentication (default U.S. card): 4242 4242 4242 4242.
+-   Authentication required: 4000 0027 6000 3184.
 
-Postcode/Zip &amp; CCV: please use type 4242 until you reach the end of the csv.
+Testing - Postcode/Zip & CCV: please type 4242 until you reach the end for a quick test if required.
 
-Example Credentials of a user with past orders and a couple product likes/dislikes:
+Above indicated the payment type one is quick payment and the other requires authentication. The notes from stripe give information any csv can be used. (Any issues please use the stripe website).  [https://stripe.com/docs/testing](https://stripe.com/docs/testing)
 
-- username: admin
+Example Credentials of a user with past orders and authority on the account has been provided below.:
+
+-  username: admin
 
 - password: Redman24
 
