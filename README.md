@@ -818,3 +818,30 @@ To enable all device were tested and various device were explored tablets and mo
 <img src="https://github.com/tomod24/get_booted/blob/master/media/68.png"> 
 
 <img src="https://github.com/tomod24/get_booted/blob/master/media/69.png">
+
+## Lighthouse Audit
+
+“Identify and fix common problems that affect your sites performance, accessibility, and user experience.”
+
+Accessibility testing was conducted on the site to ensure it was suitable and performing to a suitable score for users and their experience on the website. This way the site can potentially work to its maximum performance. This is completed by selected the lighthouse option on the developer tool and generating a report for the selected device. This can be mobile or desktop devices.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/70.png">
+
+The result for mobile was 78 on the early report review since the images are rendering on the website. As the mobile is the main function the improvements will be required. The mobile is the main function and required to be working correctly and too a high standard. This will be excellent in reviewing the progress on the mobile view of the website.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/71.png">
+
+The results for desktop are 99 for the run of the website while the images have loaded there is still some work in reviewing and checking the code of the website. As this is a early lighthouse review I would like to see the difference with the changes made in the fixing throughout the website. This is for purposes to show the improvements made from what the review is.
+
+ <img src="https://github.com/tomod24/get_booted/blob/master/media/72.png">
+
+The website has been tested with the lighthouse function mentioned earlier and the new results show an improvement to the website functionality. The website was very poor at the start for the result as I believe the performance was at a good standard but the other site mechanics were too low. As a result, some improvements were made to the desktop and mobile display on the website and the results have improved there’s still room for improvement but its improved which is always a benefit. I believe the accessibility is due to the contrast of colours but suing various websites to find colour schemes I believe it’s better display than portrayed. Nevertheless, the function mentioned in improvements would be a dark and light mode that could be input to make the site accessibility improved.  The website presented has a clean feel for users and it’s not too difficult to navigate and use the website features.
+
+Mobile Accessibility Improvement
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/73.png">  
+
+Desktop Accessibility Improvement
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/74.png">  
+
