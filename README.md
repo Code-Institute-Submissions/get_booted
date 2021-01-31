@@ -937,3 +937,15 @@ To clone the project from GitHub:
 -   [Stackoverflow](https://stackoverflow.com/questions/44779042/aws-how-to-fix-s3-event-replacing-space-with-sign-in-object-key-names-in-js) -Helping with the issue with the aws Heroku images not loading
 
 -   [Geeksforgeeks](https://www.geeksforgeeks.org/updateview-class-based-views-django/) – Edit comment section added via the website and support form
+
+## Acknowledgements
+
+-   I would like to thank Anthony Ngene who stuck by me from when I needed a guide and help to keep me motivated and see the end goal. He’s been a great help to me making sure am ok and challenged me every step to keep me thinking and learning. I wouldn’t have kept going if it weren’t for him.
+
+-   Tim Nelson and Code Institute for the template created during the course which helped to get me going with the work required.
+
+-   I would like to thank Malia Havlicek not only helps me keeps me laughing and coding fun but now I can class as a friend.  Malia made coding fun for me and said its about getting past the obstacle instead of around. Always ask how things are and we have good confirmations about general coding, working life and home life. This person is a great help to me kept me going. I appreciate all the help I’ve received.
+
+-   For my friends and family who encouraged me to keep going and don’t forget your nearly there.
+
+-   Lastly the tutors I have bothered them give them headaches and not let them 5 minutes peace when I’ve had issues all of them really helped me and had me thinking and figure out issues together. Whenever I needed help, they were there and they deserve praise just as much as the people. Without the guidance I could have been stuck and not made as much progress as I had liked. So Thank you for your time and patience helping me.
