@@ -1,53 +1,50 @@
 <div class="collapse navbar-collapse" id="main-nav">
-    <ul class="navbar-nav w-auto mx-auto">
-        <li class="nav-item d-block d-md-none">
-            <a class="logo-font font-weight-bold nav-link mr-5"  href="{% url 'home' %}" id="home">
-                Home
-            </a>
-        </li>
-        <li class="nav-item dropdown ">
-            <a class="logo-font font-weight-bold nav-link mr-5" style="color: #d9b08c;"  href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
-                All Products
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
-                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link  mr-5" style="color: #d9b08c;"  href="#" id="mens-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Mens
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="mens">
-                <a href="{% url 'products' %}?category=mens_boots" class="dropdown-item">Mens Boots</a>
-                <a href="{% url 'products' %}?category=mens_gear" class="dropdown-item">Mens Gear</a>
-                <a href="{% url 'products' %}?category=mens_boots,mens_gear" class="dropdown-item">All Mens</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link mr-5" style="color: #d9b08c;" href="#" id="womens-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Womens
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="womens">
-                <a href="{% url 'products' %}?category=womens_boots" class="dropdown-item">Womens Boots</a>
-                <a href="{% url 'products' %}?category=womens_gear" class="dropdown-item">Womens Gear</a>
-                <a href="{% url 'products' %}?category=womens_boots,womens_gear" class="dropdown-item">All Womens</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link" style="color: #d9b08c;" href="#" id="kids-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Kids
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="kids">
-                <a href="{% url 'products' %}?category=kids_boots" class="dropdown-item">Kids boots</a>
-                <a href="{% url 'products' %}?category=kids_gear" class="dropdown-item">Kids Gear</a>
-                <a href="{% url 'products' %}?category=kids_boots,kids_gear" class="dropdown-item">All Kids</a>
-            </div>
-        </li>
-    </ul>
+   <ul class="navbar-nav w-auto mx-auto">
+      <li class="nav-item d-block d-md-none">
+         <a class="logo-font font-weight-bold nav-link mr-5"  href="{% url 'home' %}" id="home">
+         Home
+         </a>
+      </li>
+      <li class="nav-item dropdown ">
+         <a class="logo-font font-weight-bold nav-link mr-5"   href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+         All Products
+         </a>
+         <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+            <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+            <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+            <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
+            <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+         </div>
+      </li>
+      <li class="nav-item dropdown">
+         <a class="logo-font font-weight-bold nav-link  mr-5"  href="#" id="mens-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Mens
+         </a>
+         <div class="dropdown-menu border-0" aria-labelledby="mens">
+            <a href="{% url 'products' %}?category=mens_boots" class="dropdown-item">Mens Boots</a>
+            <a href="{% url 'products' %}?category=mens_gear" class="dropdown-item">Mens Gear</a>
+            <a href="{% url 'products' %}?category=mens_boots,mens_gear" class="dropdown-item">All Mens</a>
+         </div>
+      </li>
+      <li class="nav-item dropdown">
+         <a class="logo-font font-weight-bold nav-link mr-5" href="#" id="womens-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Womens
+         </a>
+         <div class="dropdown-menu border-0" aria-labelledby="womens">
+            <a href="{% url 'products' %}?category=womens_boots" class="dropdown-item">Womens Boots</a>
+            <a href="{% url 'products' %}?category=womens_gear" class="dropdown-item">Womens Gear</a>
+            <a href="{% url 'products' %}?category=womens_boots,womens_gear" class="dropdown-item">All Womens</a>
+         </div>
+      </li>
+      <li class="nav-item dropdown">
+         <a class="logo-font font-weight-bold nav-link" href="#" id="kids-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Kids
+         </a>
+         <div class="dropdown-menu border-0" aria-labelledby="kids">
+            <a href="{% url 'products' %}?category=kids_boots" class="dropdown-item">Kids boots</a>
+            <a href="{% url 'products' %}?category=kids_gear" class="dropdown-item">Kids Gear</a>
+            <a href="{% url 'products' %}?category=kids_boots,kids_gear" class="dropdown-item">All Kids</a>
+         </div>
+      </li>
+   </ul>
 </div>

@@ -1,59 +1,59 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
+<div class="container header-container">
+   <div class="row">
+      <div class="col"></div>
+   </div>
+</div>
 {% endblock %}
 {% block content %}
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 card mb-4  mt-3 left  top">
-                <div class="card-body">
-                    <h1>{% block title %} {{ object.title }} {% endblock title %}</h1>
-                    <p class=" text-muted">{{ post.author }} | {{ post.created_on }}</p>
-                    <div class="card-text ">
-                        <p>{{ object.content | safe }}</p>
-                        <hr>
-                        <h2>Comments... </h2>
-                        <br>
-                        <div>
-                            {% if not post.comments.all %}
-                                <p>No comments yet .. </p>
-                                <p><a href="{% url 'add_comment' post.slug %}">Add Comment</a></p>
-                            {% else %}
-                                {% for comment in post.comments.all %}
-                                    <div class="comments {% if forloop.counter > 3 %}d-none more-comments{% endif %}">
-                                        <p><strong>{{ comment.name }} -</strong> {{ comment.date }}</p>
-                                        <p>{{ comment.body }}</p>
-                                        {% if comment.comment_owner == request.user %}
-                                        <a href="{% url 'update_comment' pk=comment.id %}" class ="btn-secondary btn"> Edit Comment</a>
-                                        {% endif %}
-                                        <hr>
-                                    </div>
-                                {% endfor %}
-                                <div class="row">
-                                    <div class="col-6">
-                                        <a class="btn btn-primary" href="{% url 'add_comment' post.slug %}">Add
-                                            Comment</a>
-                                    </div>
-                                    {% if post.comments.all|length > 3 %}
-                                        <div class="col-6" id="show-all-comments">
-                                            <a class="btn btn-secondary" href="javascript:show_all_comments();">Show All
-                                                Comments</a>
-                                        </div>
-                                    {% endif %}
-                                </div>
-                            {% endif %}
-                        </div>
-                    </div>
-                </div>
+<div class="container">
+   <div class="row">
+      <div class="col-md-8 card mb-4  mt-3 left  top">
+         <div class="card-body">
+            <h1>{% block title %} {{ object.title }} {% endblock title %}</h1>
+            <p class=" text-muted">{{ post.author }} | {{ post.created_on }}</p>
+            <div class="card-text ">
+               <p>{{ object.content | safe }}</p>
+               <hr>
+               <h2>Comments... </h2>
+               <br>
+               <div>
+                  {% if not post.comments.all %}
+                  <p>No comments yet .. </p>
+                  <p><a href="{% url 'add_comment' post.slug %}">Add Comment</a></p>
+                  {% else %}
+                  {% for comment in post.comments.all %}
+                  <div class="comments {% if forloop.counter > 3 %}d-none more-comments{% endif %}">
+                     <p><strong>{{ comment.name }} -</strong> {{ comment.date }}</p>
+                     <p>{{ comment.body }}</p>
+                     {% if comment.comment_owner == request.user %}
+                     <a href="{% url 'update_comment' pk=comment.id %}" class ="btn-secondary btn"> Edit Comment</a>
+                     {% endif %}
+                     <hr>
+                  </div>
+                  {% endfor %}
+                  <div class="row">
+                     <div class="col-6">
+                        <a class="btn btn-primary" href="{% url 'add_comment' post.slug %}">Add
+                        Comment</a>
+                     </div>
+                     {% if post.comments.all|length > 3 %}
+                     <div class="col-6" id="show-all-comments">
+                        <a class="btn btn-secondary" href="javascript:show_all_comments();">Show All
+                        Comments</a>
+                     </div>
+                     {% endif %}
+                  </div>
+                  {% endif %}
+               </div>
             </div>
-        </div>
-    </div>
+         </div>
+      </div>
+   </div>
+</div>
 {% endblock content %}
 {% block postloadjs %}
-    <script src="{% static 'blog/js/post_detail.js' %}"></script>
+<script src="{% static 'blog/js/post_detail.js' %}"></script>
 {% endblock %}
