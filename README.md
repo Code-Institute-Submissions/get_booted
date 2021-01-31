@@ -23,3 +23,25 @@ Get Booted website [https://tomod24-get-booted.herokuapp.com/](https://tomod24-g
 - The website will provide the latest football boots with excellent prices. The website will allow users to register with the website and make purchases and store the order information.
 - The website will also have a blog where special promos, common topics, or reviews of equipment by celebrities are posted.
 - The site hosts a celebrity blog to help engage users and upsell products. Users can add comments to these blogs and update their entries if they realize they have entered a typo. Blog entries could also be used to announce special deals.
+
+## Testing Checkout Credentials
+
+**For checkout please use the following information below this is for testing purposes**** :**
+
+**Card Payments**
+
+Card number: 4242 4242 4242 4242
+
+Postcode/Zip &amp; CCV: please use type 4242 until you reach the end of the csv.
+
+Example Credentials of a user with past orders and a couple product likes/dislikes:
+
+- username: admin
+
+- password: Redman24
+
+**Disclaimer** – please be aware the website is used for educational purposes only.
+
+If the website does go live new images will be uploaded
+
+The information shown by users is for testing purposes and does not reflect the products in anyway
