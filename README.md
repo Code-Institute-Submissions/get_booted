@@ -148,3 +148,32 @@ Errors
 - Provide styled 500 page
 - Provide styled 404 page
 
+# Design
+
+## Inspiration:
+
+The inspiration for the sports website came from a friend who knows my interest and thought it would be interesting to attempt to complete sports website with mainly football boots being my favourite sport and training gear to go along with it. At first coffee mugs and coffee beans was the website site because it seemed quite unique. As a result, the sports website would have a bigger database and broaden the website a lot more. As a result, it a lot more aspects to it and functionality and items that could be added now and in the future. This website was built for the more direct users/customers who want a variety of football boots on one site and find the gear to accommodate the training items necessary. I believe I could make the website with a very good design and stand out to users. Being very user friendly with the colours I&#39;ve found to use. There are always new items being released and the website can use tools in the future to contact customers about new products to bring them back. The website would also show how purchases on the website can be very easily made by the customer finding there item easily and quickly purchasing the items they wish to buy.
+
+## Font
+
+I decided to search the internet for the most effective and popular font for websites. Normally I would search for fonts that would stand out or suit the web page. My discovery from a few websites providing information was the &quot;Arial is one of the most famous fonts for both online and printed media. What&#39;s more, it is the default font in [**Google Docs**](https://www.google.com/docs/about/), a popular online office suite. Many critics say that this sans-serif member is a safe bet for anyone.&quot; As a result, I&#39;ve gone for the font that seems to be the best for websites not too much, bold and effective on webpages. As a result, the font I&#39;ll be using is Arial. Sans serif has also been highly recommended.
+
+Example below.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/3.png">
+
+## Colours
+
+When searching for colours for the website design I wanted something that was a better contrast for the website and high more impact that would highlight the images. As a result, when searching through the colour designs the &#39;Striking and Simple was the best pick and suit for the website. I checked other sites I used but the visme.co site was the best one to choose from([https://visme.co/blog/website-color-schemes/](https://visme.co/blog/website-color-schemes/)). The tones shown on the images from the dark to light colours was a perfect blend for the website and was what was required which was stated in the title of the colour type. With the selection I went for a personal preference when selecting but a colour scheme which was appealing for everyone and the colours would complement each other.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/4.png">
+
+**But I ended up with: where the green/teal tone and sandstone brown reflected better feel of the pitch. I believe they was more suitable on the website and could test and compliment the site theme a lot better.**
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/5.png">
+
+## Icons
+
+Font awesome has reliable icons available on the website which has been used. This is to make it easier for customer to find what their looking for e.g. basket for products selected and magnifying glass for searching for items. I believe this is the best website to use for icons when required as they are very simple to implement into the website. Below I have added the icons used as they will give the site better navigation indication and interactive icons for users. Its universal and known worldwide what the icons are used for on most websites. Therefore, it is best to keep the website simple and easy to follow as this practice is used on many websites online today. Font awesome is a personal preference but always useful when implementing the icons onto websites.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/6.png">
