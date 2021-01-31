@@ -218,3 +218,30 @@ The main homepage image was chosen to represent the site&#39;s purpose of being 
 - Along with the image, the user will see the rating of the item, name and price displayed when the item displays from the search and the category selected
 - Users can click on a product image to see details of the product
 
+## Wireframes
+
+Balsamiq frameworks was perfect for designing the website. Once the idea was there it was just piecing the website together to help see what it could look like. Original method was pen and paper but Balsamiq has the tools necessary to complete the web design. If any changes are implemented then I can discuss the changes from the original idea and show how I&#39;ve improved the design. The designed first draft will have amends and improvements where necessary. This is part of an ongoing improvement idea. This will help when designing making the mods and amends where necessary.
+
+The wireframes created below are in details of each page of the website. There will be some tools showing the admin side but the main focus is the website design. Once the web design pages are working correctly and full functional. The websites will be provided in full and example explained about any changes made to the design if enough time is available. The website images will show evidence of the wireframes compared to the final outlook.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/9.png">
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/10.png">
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/11.png">
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/12.png">
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/13.png">
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/14.png">
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/15.png">
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/16.png">
+
+If a blog can be imported then the wireframe below will show the layout that would be desired for the blog.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/17.png">
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/18.png">
