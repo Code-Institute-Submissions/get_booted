@@ -1040,6 +1040,153 @@ To clone the project from GitHub:
 6.  Type in git clone paste the URL copied from earlier (step 3) alongside the git command.
 7.  Press Enter, and the clone should subsequently be created
 
+**Deployment to AWS Including Media Files**
+
+Note: There are limitations on the usage when using AWS and charges also. Please be careful when using the website.
+
+The project used Amazon Web Services s3, which is a cloud-based storage service, to store static and media files. This could be used for a reliable storage base and linking to the Heroku system.
+
+1. Create an account by navigating to [aws.amazon.com](aws.amazon.com) and click create an AWS account. Provide your details including email and password, and a username for your account, and select continue.
+
+2. On the account type page, select personal and fill out the required information. Once complete this will create an account for your profile and continue.
+
+3. AWS will require a credit card number which will be used for billing if the user goes above the free usage limits. The question from here in relation to verification and card details will need completing. Once complete the sign up can be complete.
+
+4. Now return to aws.amazon.com and sign in the account with the credentials created.
+
+5. Once logged in use the search if required to find s3 and select the option available.
+
+6. Once open create a new bucket for your files
+
+7. Enter a name for your bucket advised to use the same name as the Heroku app
+
+8. Select a region (Please ensure it matches when adding to Gitpod or any other applications you are using instead of Gitpod)
+
+9. Select the region closest to your area
+
+10. Uncheck block all public access and acknowledge that the bucket will be public use on the system
+
+11. Allows static files to be public access
+
+12. Click create bucket and your bucket should be created one complete on the system
+
+13. Select the new bucket created and apply the settings to the bucket as required. Select the properties tab and turn on static website hosting
+
+14. Note: For the index and error document, just fill in some default values.
+
+15. On the permissions tab please provide the following details.
+
+16. Paste in a CORS Configuration to set up the required access between your Heroku app and the s3 bucket. Copy the code below. The code has been supplied by CodeInstitute;
+
+[
+{
+"AllowedHeaders": [
+"Authorization"
+],
+"AllowedMethods": [
+"GET"
+],
+"AllowedOrigins": [
+"*"
+],
+"ExposeHeaders": []
+}
+]
+
+* Next select policy generator in the Bucket Policy tab
+
+* Policy type is 's3 bucket policy'
+
+* Allow all principles using a *
+
+* Actions is 'GetObject'
+
+* Add in your ARN which you can find on the previous page
+
+* Click 'Add statement' then 'Generate policy'
+
+* Copy the policy code provided and paste it into the bucket policy editor to establish the connection
+
+* To allow access to all resources in this bucket add a slash star /* onto the end of the resource key. This will provide access as required
+
+* Click save
+
+* In the Access Control List tab, select the Public Access section, set the list objects permission to everyone.
+
+18. Create a user to access the bucket created.
+
+* Search for a new service 'IAM' if you cant locate it try the search bar
+
+* Open IAM, navigate to 'groups' and click 'Create new group'
+
+* Please use a name that is suitable or useful for the app created if possible
+
+* Create a policy by navigating to 'policies' and click 'Create policy'
+
+* Go to the JSON tab and select 'import managed policy'
+
+* Search for s3 and then import the s3 full access policy rights
+
+* Replace resource value '*' with your bucket ARN from the bucket policy page;
+
+* Input
+"Resource": [ "arn:aws:s3:::lj-fscr", "arn:aws:s3:::lj-fscr/*" ] (ARN used here)
+
+* Click 'Review policy', give it a name and a description and click 'Create policy'
+
+* Attach the policy to the group you created.
+
+* Select groups then from the group you created on the permissions tab select attach policy select the group you created and select 'Attach policy'.
+
+* Search for your policy and Attach policy it.
+
+* Next select users and add user
+
+*  Add username, select programmatic access and click Next
+
+* To add a user to the group, select the group created and click next until create user appears.
+
+* Download the CSV file which will contains the credentials users access key and secret access key
+
+* Important – Please note you only have one opportunity according to AWS of downloading the keys please store them safely so if there are any issues they can be fixed.
+
+20. Now to connect to Django, install the new packages below and run them to the requirements.txt file
+
+* $ pip3 install boto3
+
+* $ pip3 install django-storages
+
+* $ pip3 freeze > requirements.txt
+
+21. In settings, add 'storages' to installed apps.
+
+22. To connect S3 and Django the following settings needs adding to the settings.py file on the project. Please add the below this will complete the connection and communication.
+
+If 'USE_AWS' in os.environ:
+AWS_STORAGE_BUCKET_NAME = 'lj-fscr'
+AWS_S3_REGION_NAME = 'eu-west-2'
+AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+
+23. Create a file called custom_storages.py and add the following;
+
+from django.conf import settings
+from storages.backends.s3boto3 import S3Boto3Storage
+class StaticStorage(S3Boto3Storage):
+location = settings.STATICFILES_LOCATION
+class MediaStorage(S3Boto3Storage):
+location = settings.MEDIAFILES_LOCATION
+
+24. Then add in settings.py add the below:
+
+STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+STATICFILES_LOCATION = 'static'
+DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+MEDIAFILES_LOCATION = 'media'
+STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+
 ## Credits
 
 ## Content/Media
