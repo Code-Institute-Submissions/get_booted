@@ -26,7 +26,7 @@ Get Booted website [https://tomod24-get-booted.herokuapp.com/](https://tomod24-g
 
 ## Testing Checkout Credentials
 
-**For checkout, please use the following information below this is for testing purposes****:**
+For checkout, please use the following information below this is for testing purposes:
 
 **Card Payments**
 
@@ -53,15 +53,15 @@ The information shown by users is for testing purposes and does not reflect the 
 
 ## Project objectives
 
-**Get Booted is aimed for customer/people who enjoy football or like to train and need the correct clothing. The site is also for anyone who believes training items are comfortable to wear day to day or for lounge wear. The customers will have the access to buy any products they require and also have a record of purchases and be able to find items worker by the items being provided in to topics. e.g. clothing or adidas football boots.**
+Get Booted is aimed for customer/people who enjoy football or like to train and need the correct clothing. The site is also for anyone who believes training items are comfortable to wear day to day or for lounge wear. The customers will have the access to buy any products they require and also have a record of purchases and be able to find items worker by the items being provided in to topics. e.g. clothing or adidas football boots.
 
 ## User Goals
 
 - Easily access the items on the website to purchases
 - Ability to find any items they wish e.g. football boots or training gear with minimal effort.
 - Enjoyable website via the design and have them interested in how the website looks for an appealing affect.
-- *Register for the website very simply when they wish to purchase the items.
-- *Navigate through the shop quickly & easily.
+- Register for the website very simply when they wish to purchase the items.
+- Navigate through the shop quickly & easily.
 - Feel they are making safe and secure payments
 - Purchase a reliable product from a legit website
 - Read site blog posts for helpful information, special promos or celebrity reviews
@@ -100,7 +100,7 @@ CShare if they like a product or not.
 
 A list of the customer requirements has been provided below for the website to fulfil. Providing the user requirements will be better and reduce the number of future improvements until required.
 
-Products
+**Products**
 
 - to find products with easy accessibility
 - to be able to purchase items with minimal fuss
@@ -114,14 +114,14 @@ Products
 - I don&#39;t want to see all the comments if there are more than 3
 - I want the ability to see all the comments if there are more than 3
 
-Site Registration/User Account
+**Site Registration/User Account**
 
 - to register on the website
 - to have the ability to check previous order history
 - to be able to login and logout the website securely
 - if logged in allow user to add or update like/dislike of products
 
-Checkout/basket
+**Checkout/basket**
 
 - the ability to clear the basket if they have a incorrect order and start again
 - add items to the basket
@@ -135,14 +135,14 @@ Checkout/basket
 - receive email order has been confirmed.
 - View and order.
 
-Blog
+**Blog**
 
 - Users with access to Django Admin can add/update/delete blogs
 - Allow any user to read posted blogs
 - Post blogs in a most recent to oldest on own page
 - Allow users to easily navigate to blog posts
 
-Errors
+**Errors**
 
 - Catch errors gracefully
 - Provide styled 500 page
@@ -486,8 +486,7 @@ Contact
 
 <img src="https://github.com/tomod24/get_booted/blob/master/media/41.png">  
 
-###   
-Basket Layer
+### Basket Layer
 
 -   When users want to add items, they will select the product and add the item, quantity and size of the product
 -   When adding products users will get an alert, they have added a product to their basket.
@@ -665,12 +664,11 @@ For the website the following programming languages have been used HTML, CSS, He
 
 -  Providing icons for websites e.g. baskets icons
 
--   To test responsiveness & functionality on various browsers.
+-  To test responsiveness & functionality on various browsers.
 
 ## Data Infrastructure
 
 ### Database Choice  
-
 
 The website required using an easily accessible database to store the information when being obtained for users on the website. E.g. boots and gear. As a result, MySQL was the best solution for completing the project in the best manner. As a result, this would help users with admin credentials add more products required and the website would update with new products instantly.
 
@@ -737,9 +735,8 @@ This data model is used to store a given product along with a sku, name, descrip
 
 I used the following websites and pasted my code into it to ensure the code had no syntax errors. I believe the sites below help me ensure the code is in a good set up and working correctly including the functionality of the website:
 
--  **JavaScript -** [**https://jshint.com/**](https://jshint.com/)
-
--  **HTML -** [**https://validator.w3.org/**](https://validator.w3.org/)
+- **JavaScript -** [**https://jshint.com/**](https://jshint.com/)
+- **HTML -** [**https://validator.w3.org/**](https://validator.w3.org/)
 - **CSS -** [**https://jigsaw.w3.org/css-validator/**](https://jigsaw.w3.org/css-validator/)
 - **Lighthouse -** [**https://developers.google.com/web/tools/lighthouse/?utm_source=devtools**](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools)
 
@@ -756,8 +753,6 @@ Manual testing was completed on the website. This included various website test 
 ### Testing Client Stories from UX Section
 
 Manually testing was completed to ensure the website met the user/ user stories requirements. This would ensure the website has been checked and satisfies the users. This including what they want the website to do and how they want it to work. This also included a website with good visibility for the user and not too difficult to read for all users.
-
-  
 
 ### Cross Browser Testing
 
@@ -802,7 +797,7 @@ Multiple web browsers were tested from desktop version to mobile devices. This i
 
 <img src="https://github.com/tomod24/get_booted/blob/master/media/61.png"> 
 
-**Note - Safari has been used this time to test the website there was no access but have someone test the functions for me who said they worked correctly unfortunately this was asked for support. As a result, the evidence provided stated this was completed as needed.**
+**Note** - Safari has been used this time to test the website there was no access but have someone test the functions for me who said they worked correctly unfortunately this was asked for support. As a result, the evidence provided stated this was completed as needed.
 
 ### Device Testing
 
