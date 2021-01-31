@@ -852,11 +852,21 @@ A list of bugs discovered have been provided and some of the additional issues f
 <img src="https://github.com/tomod24/get_booted/blob/master/media/75.png">  
 <img src="https://github.com/tomod24/get_booted/blob/master/media/76.png">  
 
-### Outstanding Defects
+**Outstanding Defects**
 
-### Site Amends
+**Stripe**
 
-The colour theme originally selected was a good theme to use but, in the end, opted for a change. The website was required to be a dark theme colour and changed the colours used for the better. As a res
+Stripe disabled the webhooks temporarily on the website for unknown reasons but stated the system wasn’t being used. This maybe because its not live. If there any issues please let me know so I can reenable the system I have raised a ticket and enabled it manually.
+
+**Galaxy Fold**
+
+The galaxy fold is the only device with display issues. I believe it is due to the type of phone because every other device is working correctly with the website. This may be required to be research further as to the display matters.
+
+**Date and Time Display**
+
+When checking out on the mobile the format of the time and date of the order isnt exactly how it should be it needs to fit the screen perfectly for viewing purposes but the alignment is off. This needs to be review for the best posisble format to be displayed. 
+
+All the above are working progress isuses but have been identified to be fixed and amended as required for the functionality of the website.
 
 # Deployment
 
