@@ -956,9 +956,15 @@ The galaxy fold is the only device with display issues. I believe it is due to t
 
 **Date and Time Display**
 
-When checking out on the mobile the format of the time and date of the order isnt exactly how it should be it needs to fit the screen perfectly for viewing purposes but the alignment is off. This needs to be review for the best posisble format to be displayed. 
+When checking out on the mobile the format of the time and date of the order isnt exactly how it should be it needs to fit the screen perfectly for viewing purposes but the alignment is off. This needs to be review for the best posisble format to be displayed. Amended the code to fit better but needs improving further.
+
+**Womens gear trainers have clothes sizes which needs improve for the link on the website for shoe sizes.**
 
 All the above are working progress isuses but have been identified to be fixed and amended as required for the functionality of the website.
+
+**Category display**
+
+When selecting a category type the type of category displays twice removed the code and made amend to check it over but not amended more time necessary to work on it at the moment its an ongoing fix required.
 
 **Defensive Programming**
 
