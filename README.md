@@ -1,0 +1,538 @@
+<img src="https://github.com/tomod24/get_booted/blob/master/media/1.png">
+
+# Get booted is a website hosting great deals on football boots and gear.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/2.png">
+
+# Author
+
+# David Thompson
+
+# Introduction
+
+Get Booted is an ecommerce website where customers can buy football boots and training gear at great prices. Products can be easily searched by price, rating or categories so users can find what they want quickly. Users can also register to the site and save their shipping information to make future purchase easier and to view their past orders.
+
+The site hosts a celebrity blog to help engage users and upsell products. Users can add comments to these blogs and update their entries if they realize they have entered a typo. Blog entries could also be used to announce special deals.
+
+Get Booted website [https://tomod24-get-booted.herokuapp.com/](https://tomod24-get-booted.herokuapp.com/)
+
+- Get Booted/Boots &amp; Gear is an ecommerce website where customer can buy football boots and training gear via the website.
+- The website will provide easy access and purchasing made simple with a secure confirmation order.
+- The users will be able to provide reviews on products and rate them also this will help with the most popular items on the website.
+- The users will be able to provide like/dislike in relation to products and see other shopper&#39;s input as this will help with identify the most popular items on the website.
+- The website will provide the latest football boots with excellent prices. The website will allow users to register with the website and make purchases and store the order information.
+- The website will also have a blog where special promos, common topics, or reviews of equipment by celebrities are posted.
+- The site hosts a celebrity blog to help engage users and upsell products. Users can add comments to these blogs and update their entries if they realize they have entered a typo. Blog entries could also be used to announce special deals.
+
+## Testing Checkout Credentials
+
+**For checkout, please use the following information below this is for testing purposes****:**
+
+**Card Payments**
+
+-   No authentication (default U.S. card): 4242 4242 4242 4242.
+-   Authentication required: 4000 0027 6000 3184.
+
+Testing - Postcode/Zip & CCV: please type 4242 until you reach the end for a quick test if required.
+
+Above indicated the payment type one is quick payment and the other requires authentication. The notes from stripe give information any csv can be used. (Any issues please use the stripe website).  [https://stripe.com/docs/testing](https://stripe.com/docs/testing)
+
+Example Credentials of a user with past orders and authority on the account has been provided below.:
+
+-  username: admin
+
+- password: Redman24
+
+**Disclaimer** – please be aware the website is used for educational purposes only.
+
+If the website does go live new images will be uploaded
+
+The information shown by users is for testing purposes and does not reflect the products in anyway
+
+# UX
+
+## Project objectives
+
+**Get Booted is aimed for customer/people who enjoy football or like to train and need the correct clothing. The site is also for anyone who believes training items are comfortable to wear day to day or for lounge wear. The customers will have the access to buy any products they require and also have a record of purchases and be able to find items worker by the items being provided in to topics. e.g. clothing or adidas football boots.**
+
+## User Goals
+
+- Easily access the items on the website to purchases
+- Ability to find any items they wish e.g. football boots or training gear with minimal effort.
+- Enjoyable website via the design and have them interested in how the website looks for an appealing affect.
+- *Register for the website very simply when they wish to purchase the items.
+- *Navigate through the shop quickly & easily.
+- Feel they are making safe and secure payments
+- Purchase a reliable product from a legit website
+- Read site blog posts for helpful information, special promos or celebrity reviews
+CShare if they like a product or not.
+- Review past orders**
+
+## Developer Goals
+
+- Demonstrate a solid understanding of Heroku, Django and Python
+
+- Build a friendly simple but effective website
+
+- Build up portfolio with a great project and website design
+
+- Make the site easy to use for customers
+
+- Give a positive feel to the users so there happy to return to the website again and again
+
+## Website Owner Goals
+
+- Satisfied customers after visiting the website spreading the word about the positive website
+
+- To become bigger and more popular selling more products
+
+- To have an excellent review and reliable website for all customers
+
+- Increased usage of the blog function due to interest.
+
+- Make customers become more involved with the social media features available.
+
+- Make sales and readily available products to increase the sales revenue
+
+## User Stories
+
+&quot;As a customer I would like to purchase items with ease and be able to do the following&quot;
+
+A list of the customer requirements has been provided below for the website to fulfil. Providing the user requirements will be better and reduce the number of future improvements until required.
+
+Products
+
+- to find products with easy accessibility
+- to be able to purchase items with minimal fuss
+- to be able to view available products
+- to be able to view individual products for more details.
+- To be able to sort the products by category, price and more
+- to be able to search for products using the search bar
+- to be able to use the search bar to select a specific type of product
+- to have the ability to navigate through the website very ease
+- to add show how many users have liked/disliked a product review e.g. rating or comment
+- I don&#39;t want to see all the comments if there are more than 3
+- I want the ability to see all the comments if there are more than 3
+
+Site Registration/User Account
+
+- to register on the website
+- to have the ability to check previous order history
+- to be able to login and logout the website securely
+- if logged in allow user to add or update like/dislike of products
+
+Checkout/basket
+
+- the ability to clear the basket if they have a incorrect order and start again
+- add items to the basket
+- remove items
+- edit the quantity of products
+- view items
+- view the cost individually and total
+- enter contact details when checking out
+- enter card details
+- feel safe and secure when ordering products
+- receive email order has been confirmed.
+- View and order.
+
+Blog
+
+- Users with access to Django Admin can add/update/delete blogs
+- Allow any user to read posted blogs
+- Post blogs in a most recent to oldest on own page
+- Allow users to easily navigate to blog posts
+
+Errors
+
+- Catch errors gracefully
+- Provide styled 500 page
+- Provide styled 404 page
+
+# Design
+
+## Inspiration:
+
+The inspiration for the sports website came from a friend who knows my interest and thought it would be interesting to attempt to complete sports website with mainly football boots being my favourite sport and training gear to go along with it. At first coffee mugs and coffee beans was the website site because it seemed quite unique. As a result, the sports website would have a bigger database and broaden the website a lot more. As a result, it a lot more aspects to it and functionality and items that could be added now and in the future. This website was built for the more direct users/customers who want a variety of football boots on one site and find the gear to accommodate the training items necessary. I believe I could make the website with a very good design and stand out to users. Being very user friendly with the colours I&#39;ve found to use. There are always new items being released and the website can use tools in the future to contact customers about new products to bring them back. The website would also show how purchases on the website can be very easily made by the customer finding there item easily and quickly purchasing the items they wish to buy.
+
+## Font
+
+I decided to search the internet for the most effective and popular font for websites. Normally I would search for fonts that would stand out or suit the web page. My discovery from a few websites providing information was the &quot;Arial is one of the most famous fonts for both online and printed media. What&#39;s more, it is the default font in [**Google Docs**](https://www.google.com/docs/about/), a popular online office suite. Many critics say that this sans-serif member is a safe bet for anyone.&quot; As a result, I&#39;ve gone for the font that seems to be the best for websites not too much, bold and effective on webpages. As a result, the font I&#39;ll be using is Arial. Sans serif has also been highly recommended.
+
+Example below.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/3.png">
+
+## Colours
+
+When searching for colours for the website design I wanted something that was a better contrast for the website and high more impact that would highlight the images. As a result, when searching through the colour designs the &#39;Striking and Simple was the best pick and suit for the website. I checked other sites I used but the visme.co site was the best one to choose from([https://visme.co/blog/website-color-schemes/](https://visme.co/blog/website-color-schemes/)). The tones shown on the images from the dark to light colours was a perfect blend for the website and was what was required which was stated in the title of the colour type. With the selection I went for a personal preference when selecting but a colour scheme which was appealing for everyone and the colours would complement each other.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/4.png">
+
+**But I ended up with: where the green/teal tone and sandstone brown reflected better feel of the pitch. I believe they was more suitable on the website and could test and compliment the site theme a lot better.**
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/5.png">
+
+## Icons
+
+Font awesome has reliable icons available on the website which has been used. This is to make it easier for customer to find what their looking for e.g. basket for products selected and magnifying glass for searching for items. I believe this is the best website to use for icons when required as they are very simple to implement into the website. Below I have added the icons used as they will give the site better navigation indication and interactive icons for users. Its universal and known worldwide what the icons are used for on most websites. Therefore, it is best to keep the website simple and easy to follow as this practice is used on many websites online today. Font awesome is a personal preference but always useful when implementing the icons onto websites.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/6.png">
+
+## Content Section
+
+- The content layout of the website has been set via the device size. Desktop having 4 items tablets large and small have 2-3 and mobiles 1 item for easily scrolling.
+- All items are going to be displayed if required but the user can select an item type from the all products dropdown
+- The item will be the main focus as this is to stand out to get the customers/users attention to possibly have interest and make a purchase
+- This will help with the sales on the website if the content is standing out for users.
+- The users can select the item they see when all items are displayed when scrolling or they can search for an item. This will display any items with keywords that the user types. Generic words wont display items
+- The user will see the rating of the item, name and price displayed when the item displays from the search and the category selected
+- Users can give the item a like or dislike if logged in or change their existing input.
+
+## Home Page Image
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/7.png">
+
+The main homepage image was chosen to represent the site&#39;s purpose of being a place to buy football boots.
+
+**Product Images**
+
+ Images of products were chosen for this site that have clear backgrounds. I made sure the imagery uploaded was clear and not fuzzy and didn&#39;t have shadows to best highlight what the site is selling. This made it easy to have the imagery stand out against a light gray background
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/8.png">
+
+## Product List Layout Considerations
+
+- The product layout of the website has been set via the device size to make the site easy to read and products easier to view:
+
+| DEVICE | NUMBER OF PRODUCTS |
+| --- | --- |
+| Desktop | 4 |
+| Tablet Horizontal | 3 |
+| Tablet Vertical | 2 |
+| Phones | 1 |
+
+- On page load, all items are going to be displayed
+- The item&#39;s image will be the main focus to get the customers/users attention to possibly have interest and make a purchase
+- Well organized, logical dropdowns allow users to reduce the number of products a user sees.
+- A search tool bar will be displayed so users can search with words for products they are interested
+- Along with the image, the user will see the rating of the item, name and price displayed when the item displays from the search and the category selected
+- Users can click on a product image to see details of the product
+
+## Wireframes
+
+Balsamiq frameworks was perfect for designing the website. Once the idea was there it was just piecing the website together to help see what it could look like. Original method was pen and paper but Balsamiq has the tools necessary to complete the web design. If any changes are implemented then I can discuss the changes from the original idea and show how I&#39;ve improved the design. The designed first draft will have amends and improvements where necessary. This is part of an ongoing improvement idea. This will help when designing making the mods and amends where necessary.
+
+The wireframes created below are in details of each page of the website. There will be some tools showing the admin side but the main focus is the website design. Once the web design pages are working correctly and full functional. The websites will be provided in full and example explained about any changes made to the design if enough time is available. The website images will show evidence of the wireframes compared to the final outlook.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/9.png">
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/10.png">
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/11.png">
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/12.png">
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/13.png">
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/14.png">
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/15.png">
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/16.png">
+
+If a blog can be imported then the wireframe below will show the layout that would be desired for the blog.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/17.png">
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/18.png">
+
+# Features
+
+## Implemented Features.
+
+**Navbar**
+
+-   The navbar has the search bar implemented so the user can search at all times when required to find the item they want. The users can use keywords that will help with the search.
+-   The navbar has collapsible options available when selecting different options available e.g. products.
+-   The navbar is fixed this will be a better user experience when navigation via the website.
+-   The main site logo links the page back to the home screen if the user wants that option to start from the beginning of the website.
+-   When the user’s login the dropdown for my account is different on the website e.g. logout view history to register and login.
+-   The users also see the items in the basket and the amount it’s going to cost so they can keep track of the website.
+-   If the user selects one of the dropdowns menus, they will have access to the list of options the hover ability has not been implemented for this option to make sure the site is cleaner and the users only get the options they want when selected.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/19.png">
+
+On mobile devices the navbar is more consolidated and some options are placed into a sidebar menu.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/20.png">  
+
+### Promo bar
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/21.png">
+
+Below the navbar is a promo bar. It contains product sorting dropdown menus and a promotional text; at this time, it is FREE DELIVERY ON ORDERS OVER £50!
+
+### Home Page
+
+-   The home page has a picture of the latest boots available on the website for interest of potential customers and a link that goes to that web page.
+-   Users can select all the options from the drop downs in the nav bar section.
+-   Contact details have been added for the website if required to get in touch.
+-   The text adjusts to be full width on mobile devices so the SHOP NOW button is still in view
+-   The text for medium sized devices and up is only 50% so that more of the hero image is visible to draw the user’s interest in
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/22.png">
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/23.png">
+
+### 404 page
+
+Handles system errors gracefully
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/24.png">
+
+**500 page**
+
+Handles system errors gracefully
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/25.png">
+
+### Search Bar
+
+-   The search page displays all products when using keywords associated with the items.
+-   The search results will display the number of items it has found.
+-   The products will be displayed as cards, as per the product views.
+-   For small devices the search icon makes the search input appear so the user can have almost the full width r entering their search terms
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/26.png">
+
+### Product List Page
+
+-   The product views contain a 'breadcrumbs' list at the top of the page, to improve navigation around the site.
+-   This allows users to return to the all products view if currently viewing a specific category.
+-   There is an available sorting button on the website that allows users to display products by price, Rating, Category or All Products.
+-   The users can action a rating to the product which will implement the rating of the item.
+-   If the card is selected the image will pull up the product information.
+-   Number of items in a row is responsive
+
+### Product Detail Page
+
+-   Breadcrumbs has been implemented into the product details view. This will improve the navigation of the website.
+-   This makes it easier for users to return to the all-products page links and selected criteria
+-   When the user selects the item all the details are displayed the same for easy reading and navigating purposes.
+-   The product detail pages show the data from the list page, with the addition of a detailed description.
+-   A select list to enable users to select the size of product that they wish to purchase.
+-   The user has the access to return to the whole products page if they choose to use the ‘back’ button on the item page.
+-   The user can select as many items as they choose with the quantity selector on the
+-   There is a add to basket button once the user confirms the number of items they want to purchase.
+
+### Basket Layer
+
+The basket layer appears below the cart icon if a user adds an item to their bag. It summarizes what the user has purchased.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/27.png">
+
+### Basket Page
+
+-   If there are no products in the basket and the user clicks on the icon, the user will have the option to return to the whole products page.
+-   When an item has been added to the basket the user will get a notification displayed.
+-   The user will have the item displayed providing the title, cost and quantity on the page
+-   The basket will provide the user with the total amount of the products accumulated before checking out
+-   The items will display all the information horizontally
+-   The quantity the user has added can be edited if required.
+-   The user can add multiple items of the same product when updated this will notify the user this has been complete with the cost.
+-   The user can also remove the items from the basket if they no longer wish to purchase the item
+-   The total cost will be displayed at the bottom of the page with any delivery charges included
+-   The user can return to the home page with all products at any point even if there are items in the basket
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/28.png">
+
+### Checkout Page
+
+-   Checkout page request user contact details when checking out. Name, delivery details and card information.
+-   The items will display with the product, quantity and total cost
+-   The user can adjust the webpage if they wish to change the products before finalizing the order
+-   Users can create an account if they wish to do so by clicking the link available
+-   Users can login from the checkout page if they haven’t done so already
+-   There is an order for a user to complete with their details & delivery details (prepopulated if already saved against the user profile).
+-   The users can finalise the payment using the attached stripe method by inputting the details (Education purposes no money will be taken)
+-   Once the user has finalized the order, they can return to the products page by clicking the deals button
+-   Users will get a notification and email to inform them they have purchased the item (education purposes)
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/29.png">
+
+### Checkout complete Page
+
+-   User get a detailed page about their order and the details of the order. Hiding any sensitive information such as card details. (products purchased, delivery address & order number)
+-   The user can return to the all-items webpage
+-   The user gets and alert the order has been successful
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/30.png">
+
+### Product Admin
+
+Superusers can edit or deleted, and add products due to administration access
+
+#### Add Product Page
+
+This page is found from an admin only option under the My Account Menu
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/31.png">
+
+The page has the ability for the user to enter a new product.
+
+The user sets the following fields
+
+-  Category – drop down of existing categories defaulted to first value
+
+-  Sku – option text entry
+
+-  Name – required text entry
+
+-  Description – required text field
+
+-  Has Sizes – drop down defaulted to No
+
+-  Price – required
+
+-  Rating – optional number
+
+-  Image url -optional
+
+-  Image chooser -optional
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/32.png">
+
+If the user is a superuser, the product detail page and the product list page will have edit and delete options next to the ratings button
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/33.png">
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/34.png">
+
+#### Edit Product Page
+
+This page prepopulates the product information form and allows the user to change the product’s data
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/35.png">
+
+#### Delete Product Button
+
+The delete product button ideally would bring up a warning layer, but right now it only flashes a message
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/36.png">
+
+Footer
+
+-   The footer will have contact details for the website and social media links available
+-   The social media will help user awareness of the website and also the products available.
+
+Contact
+
+-   Users can gain access to the contact details in the contact section phone number and email if required
+-   This will be the same as submitting a Q/A about the website emails can be responded to
+
+### Footer
+
+-   The footer will have contact details for the website and social media links available
+-   The social media will help user awareness of the website and also the products available.
+
+### Edit Comment Page
+
+-   Edit comment page can be accessed by user that owns the comment
+-   Prepopulates existing information
+-   Allows user to update name of user to attribute the comment to, does not have to be tied to a real user
+-   Allows user to update their comment
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/37.png">  
+
+### Site Features for Non-registered
+
+### Home page
+
+-   Get Booted website will allow users to make a purchase if registered or not. Ideally users are best registering as it will store the user’s information via their profile. This will include name, address and order information.
+-   No card numbers will be saved on the website for privacy measures.
+-   As a user they can search the website for various items. This will require a keyword to be used to bring up the items. This will be better for users and more precise.
+-   The users can click the shop now button which will bring up all the items for the user giving them an overall view of the items in the store.
+-   Users can return to the homepage at any point by clicking the website title.
+-   The users have my account option to use if needed if they wish to register or login into their account.
+-   When the users add any items to purchase, they will see the items added to the basket with the cost of the items as a grand total.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/38.png">  
+
+### Search Bar
+
+-   Users have the advantage of searching for the items quicker if required via the search bar option.
+-   If the users type kits words in regards to the site e.g. boots ot hats items of that criteria will appear in a list for the users to view.
+-   The tool is helpful for users when theres thousands of products on the website and they want to narrow it down to specific items. The search bar will speed this up . Making the search and purchases easier.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/39.png">  
+
+### Nav Bar Drop Downs
+
+-   With the addition of the search tool the users can navigate thorugh the site manually via the navbar drop down options.
+-   The navbar dropdown allow the users to search via a particular product type.
+-   For this website this has been split into Mens, Womens and kids option. Including the all products option which can be sorted by price, rating, category and lastly all products.
+-   This will help users who arent finding the products via search and go through each section until they find a product they want or if they decide to make purchase at that moment of time.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/40.png">  
+
+### My Account
+
+-   The my account section provides the users with the option to become a registered user on the website.
+-   Users have the option to make purchases if they register or not as long as they provide their customer details on the site when making a purchase.
+-   If a registered user on the website users can have their information stored once they register.
+-   Registered users can review their order history so any purchases made on the website and when the orders were completed soi they can use the information for whatever  they need.
+-   Registered users can also when they make a purchase they can have their profile information input on the system ready for check out.
+-   Admin have the access to add products to the website also if new poducts are needed to be added to the website. This will be using the product management feature.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/41.png">  
+
+###   
+Basket Layer
+
+-   When users want to add items, they will select the product and add the item, quantity and size of the product
+-   When adding products users will get an alert, they have added a product to their basket.
+-   This will calculate the cost of the basket and display the overall cost of the order.
+-   When users view the basket, it will show the order information and calculate the items individually by product but tally the quantity as an overall cost.
+-   Users can remove the items individually to save any errors or issues removing the items in error.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/42.png"> 
+
+### Basket Page
+
+Same information as layer but accessed by clicking the cart icon in the navigation. This is how the user can start checking out.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/43.png"> 
+
+### Checkout Page
+
+When user’s checkout they have the option if registered to use the information on the profile already input. This can be configured by selecting their profile from my account selection and updating their information with the details prior to completing purchase option.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/44.png"> 
+
+-   When the users click the checkout option, they will be greeted with a screen requiring user details.
+-   If the user has already input the details, they will be pre populated in the profile section this will make the purchase quicker
+-   If the user hasn’t input the details or got a profile, they will have to input the details before finalizing the purchase.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/45.png"> 
+
+-   The user will have to supply their card information to finalise the purchase on the website and complete the complete order option. (Note: testing complete purchase card details are at the start of the project work if required)
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/46.png"> 
+
+### Order Confirmation Page
+
+-   Once the order is complete the user will get a confirmation with all the order details supplied to them on the web page.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/47.png"> 
+
+-   This will also notify them with a pop up on the screen with the order being progressed successfully.
+-   There is an authentication emthod which has been provided at the start of the document with the card testing details to use.
+
+### Order confirmation layer
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/48.png">   
+
+-   Once complete the user can leave the website if not registered. The user can log out or they can use any of the links available including the latest deals button below.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/49.png"> 
+
