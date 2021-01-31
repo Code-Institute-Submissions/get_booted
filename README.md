@@ -912,15 +912,13 @@ To clone the project from GitHub:
 
 -   Font Awesome – Providing various symbols and logs that can be used to provide a better and cleaner design on the website with accurate and simple logos. [https://fontawesome.com/icons](https://fontawesome.com/icons)
 
--   Bootstrap– Providing excellent support in implementing features and functions for the website e.g. footer, grids, colour codes and more
+-  [Bootstrap](https://getbootstrap.com/docs/5.0/layout/grid/)– Providing excellent support in implementing features and functions for the website e.g. footer, grids, colour codes and more
 
--   Color Picker – User for the colour selection examples provided in the Design section. [https://htmlcolorcodes.com/](https://htmlcolorcodes.com/)
+-   [Color Picker](https://htmlcolorcodes.com/) – User for the colour selection examples provided in the Design section.
 
--   Pro direct soccer – For the items information
+-   [Pro Direct Soccer](https://www.prodirectsoccer.com/) – For the items information
 
--   Lovell soccer - For the items information
-
--   Stackoverlow -Helping with the issue with the aws Heroku images not loading [https://stackoverflow.com/questions/44779042/aws-how-to-fix-s3-event-replacing-space-with-sign-in-object-key-names-in-js](https://stackoverflow.com/questions/44779042/aws-how-to-fix-s3-event-replacing-space-with-sign-in-object-key-names-in-js)
+-   [Lovell Soccer](https://www.lovellsoccer.co.uk/) - For the items information
 
 -   [Phocuswire](https://www.phocuswire.com/rethinking-broken-travel-marketing-funnel) - Image used for the 500.html page
 
@@ -934,8 +932,8 @@ To clone the project from GitHub:
 
 -   Blog Creation – [Codemy.com](https://www.youtube.com/watch?v=PXqRPqDjDgc) supporting me and guiding me to creating a blog and producing comments being stored using Django playlist.
 
--   Design for displaying website in a project first page item
+-   [Stackoverflow](https://stackoverflow.com/questions/15843581/how-to-correctly-iterate-through-getelementsbyclassname) – using the getElementsByClassName for adding the more comments section javascript
 
--   getElementsByClassName – for the comments more function javascript [https://stackoverflow.com/questions/15843581/how-to-correctly-iterate-through-getelementsbyclassname](https://stackoverflow.com/questions/15843581/how-to-correctly-iterate-through-getelementsbyclassname)
+-   [Stackoverflow](https://stackoverflow.com/questions/44779042/aws-how-to-fix-s3-event-replacing-space-with-sign-in-object-key-names-in-js) -Helping with the issue with the aws Heroku images not loading
 
--   Geeksforgeeks – Edit comment section added via the website and support from https://www.geeksforgeeks.org/updateview-class-based-views-django/
+-   [Geeksforgeeks](https://www.geeksforgeeks.org/updateview-class-based-views-django/) – Edit comment section added via the website and support form
