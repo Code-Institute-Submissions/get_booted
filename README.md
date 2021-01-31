@@ -914,16 +914,17 @@ To deploy this project , you need to have the following setup:
 |-----------------------|----------------------------|  
 | AWS_ACCESS_KEY_ID     | your aws access key id     |  
 | AWS_SECRET_ACCESS_KEY | your aws secret key        |  
-| AWS_S3_REGION_NAME    | your aws region            |  
 | DATABASE_URL          | your postgres db url       |  
-| USE_AWS               | True                       |  
+| DEFAULT_FROM_EMAIL    | your default email address |  
+| DEVELOPMENT           | TRUE                       | 
+| EMAIL_HOST_USER       | your gmail username        |  
+| EMAIL_HOST_PASS       | your email api password    | 
+| SECRET_KEY            | Your django app secret key |  
 | STRIPE_PUBLIC_KEY     | your strip public key      |  
 | STRIPE_SECRET_KEY     | your stripe secret key     |  
 | STRIPE_WH_SECRET      | your strip api secret      |  
-| SECRET_KEY            | Your django app secret key |  
-| EMAIL_HOST_USER       | your gmail username        |  
-| EMAIL_HOST_PASS       | your email api password    |  
 | DISABLE_COLLECTSTATIC | 1                          |
+| USE_AWS               | FALSE                      |  
 
 -  Add the heroku host to ALLOWED_HOSTS in your settings.py and check that in  
 -  Because this is a new database, you will have to set up restart your gitpod for the Heroku database from gitpod's terminal:  
