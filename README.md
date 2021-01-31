@@ -845,3 +845,97 @@ Desktop Accessibility Improvement
 
 <img src="https://github.com/tomod24/get_booted/blob/master/media/74.png">  
 
+## Bugs Discovered
+
+A list of bugs discovered have been provided and some of the additional issues face during the website build. NOtes the errors of the bugs and first implemented to get past the issue.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/75.png">  
+<img src="https://github.com/tomod24/get_booted/blob/master/media/76.png">  
+
+### Outstanding Defects
+
+### Site Amends
+
+The colour theme originally selected was a good theme to use but, in the end, opted for a change. The website was required to be a dark theme colour and changed the colours used for the better. As a res
+
+# Deployment
+
+## Deploy to GitHub Pages
+
+I developed this project using Gitpod. I would amend the website as required and submit my amends to GitHub via Gitpod by committing and pushing the changes to the server. This would be completed using the GitPod terminal.
+
+-   Log into [GitHub](https://github.com/)
+-   Select 'Repositories', navigate to [Get Booted](https://github.com/tomod24/get_booted) and select
+-   Select the dropdown menu and your repositories if required
+-   Select the settings tab under the repository title.
+-   Scroll down to the GitHub pages section.
+-   Select master branch the page reloads the website has now been deployed.
+-   Scroll down the page after several seconds the information should state the site has been deployed in green and the link should be clickable taking you to your website. [https://github.com/tomod24/get_booted](https://github.com/tomod24/get_booted)
+
+## Deploying the application to Heroku
+
+## Connecting to AWS
+
+## How to run the project locally
+
+To clone the project from GitHub:
+
+1.  Click the following link for the [GitHub repository.](https://github.com/tomod24/get_booted)
+2.  Click on the code button
+3.  A dropdown window will appear titled 'Clone with HTTPS' - copy the link provided in the field below
+4.  Open your local IDE
+5.  Change the current working directory to the location where you want the cloned directory to be made
+6.  Type in git clone paste the URL copied from earlier (step 3) alongside the git command.
+7.  Press Enter, and the clone should subsequently be created
+
+  
+
+## How to download github files and upload
+
+To clone the project from GitHub:
+
+1.  Click the following link for the [GitHub repository.](https://github.com/tomod24/get_booted)
+2.  Click on the code button
+3.  A dropdown window will appear titled 'Clone with HTTPS' - copy the link provided in the field below
+4.  Open your local IDE
+5.  Change the current working directory to the location where you want the cloned directory to be made
+6.  Type in git clone paste the URL copied from earlier (step 3) alongside the git command.
+7.  Press Enter, and the clone should subsequently be created
+
+## Credits
+
+## Content/Media
+
+-   Colour Theme used for the website from [https://visme.co/blog/website-color-schemes/](https://visme.co/blog/website-color-schemes/) Striking and Simple selection was picked.
+
+-   Font passage from [https://www.hostinger.com/tutorials/best-html-web-fonts#:~:text=There%20are%20three%20font%20types,affordable%20hosting%20for%20your%20website](https://www.hostinger.com/tutorials/best-html-web-fonts#:~:text=There%20are%20three%20font%20types,affordable%20hosting%20for%20your%20website).
+
+-   Font Awesome – Providing various symbols and logs that can be used to provide a better and cleaner design on the website with accurate and simple logos. [https://fontawesome.com/icons](https://fontawesome.com/icons)
+
+-   Bootstrap– Providing excellent support in implementing features and functions for the website e.g. footer, grids, colour codes and more
+
+-   Color Picker – User for the colour selection examples provided in the Design section. [https://htmlcolorcodes.com/](https://htmlcolorcodes.com/)
+
+-   Pro direct soccer – For the items information
+
+-   Lovell soccer - For the items information
+
+-   Stackoverlow -Helping with the issue with the aws Heroku images not loading [https://stackoverflow.com/questions/44779042/aws-how-to-fix-s3-event-replacing-space-with-sign-in-object-key-names-in-js](https://stackoverflow.com/questions/44779042/aws-how-to-fix-s3-event-replacing-space-with-sign-in-object-key-names-in-js)
+
+-   [Phocuswire](https://www.phocuswire.com/rethinking-broken-travel-marketing-funnel) - Image used for the 500.html page
+
+-   [Lostpedia](https://lostpedia.fandom.com/wiki/Lost) – Image used for thr 404 site error
+
+-   [Heroku](https://id.heroku.com/login) – Used to deploy the website going live.
+
+-   Freefrontend - [https://freefrontend.com/html-css-404-page-templates/](https://freefrontend.com/html-css-404-page-templates/) acknowledgement for the 400 error template page making ideas used to create the 404 and convert to my own
+
+-   505 Error - [https://codepen.io/fcasantos/pen/LJXeKP](https://codepen.io/fcasantos/pen/LJXeKP) acknowledgement for the 500 error template page making ideas used to create the 500 and convert to my own
+
+-   Blog Creation – [Codemy.com](https://www.youtube.com/watch?v=PXqRPqDjDgc) supporting me and guiding me to creating a blog and producing comments being stored using Django playlist.
+
+-   Design for displaying website in a project first page item
+
+-   getElementsByClassName – for the comments more function javascript [https://stackoverflow.com/questions/15843581/how-to-correctly-iterate-through-getelementsbyclassname](https://stackoverflow.com/questions/15843581/how-to-correctly-iterate-through-getelementsbyclassname)
+
+-   Geeksforgeeks – Edit comment section added via the website and support from https://www.geeksforgeeks.org/updateview-class-based-views-django/
