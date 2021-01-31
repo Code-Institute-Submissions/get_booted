@@ -6,7 +6,7 @@
 
 # Author
 
-# David Thompson
+David Thompson
 
 # Introduction
 
