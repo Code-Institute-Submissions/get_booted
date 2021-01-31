@@ -730,3 +730,96 @@ This data model is used to make sorting and grouping of products easier. I used 
 #### PRODUCTS_PRODUCT
 
 This data model is used to store a given product along with a sku, name, description, price, rating, image, has sizes and category-field. I used the model from the boutique ado example.
+
+# Testing
+
+## Validation Testing
+
+I used the following websites and pasted my code into it to ensure the code had no syntax errors. I believe the sites below help me ensure the code is in a good set up and working correctly including the functionality of the website:
+
+-  **JavaScript -** [**https://jshint.com/**](https://jshint.com/)
+
+-  **HTML -** [**https://validator.w3.org/**](https://validator.w3.org/)
+- **CSS -** [**https://jigsaw.w3.org/css-validator/**](https://jigsaw.w3.org/css-validator/)
+- **Lighthouse -** [**https://developers.google.com/web/tools/lighthouse/?utm_source=devtools**](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools)
+
+## User Stories Testing
+
+### Automated
+
+Jasmine testing would be ideal in testing the book website. As we have tested during the end process of the website and nearing the end of the requirement timescale the action cannot be completed. Due to time constraints and working on the other aspects of the game I couldn’t pursue the possible requirement.
+
+### Manual
+
+Manual testing was completed on the website. This included various website test for every functionality and usage. From clicking items to completing full check outs on the website. A table has been put together of the actions testing in regards to the user stories also. Trying to ensure sure user requirements were met and general site functionality.
+
+### Testing Client Stories from UX Section
+
+Manually testing was completed to ensure the website met the user/ user stories requirements. This would ensure the website has been checked and satisfies the users. This including what they want the website to do and how they want it to work. This also included a website with good visibility for the user and not too difficult to read for all users.
+
+  
+
+### Cross Browser Testing
+
+Multiple web browsers were tested from desktop version to mobile devices. This is to ensure the website has been tested on various devices and functions and displays correctly. Testing will ensure the website is suitable and the website has been checked in the correct manner. It is important to check the functionality in case any CSS amendments are required as they layout needs to be suitable for users. A list of actions required to be available for the website have been provided below.
+
+-   to find items via searching keywords
+-   to find items by selecting dropdown lists
+-   to be able to view product details
+-   to be able to add the products to the basket by clicking a button
+-   to be able to decide the quantity of the item to be added
+-   to register for the website
+-   to login to the website with registered credentials
+-   to be able to checkout with ease using user details e.g. name address etc.
+-   to be able to amend the basket items
+-   to be able to remove items from the basket
+-   to return to the products page before finalising the order
+-   to have an email confirmation of the order being completed (educational/display purposes)
+-   Notification the order has been completed
+-   To be able to review order history
+-   to be able to use the website name as a home button
+-   to be able to amend the admin settings such as products as a super user
+-   to have the ability to add products from the website
+-   to have the ability to remove products
+-   to have the ability to edit products
+-   to navigate through the web page with ease
+-   to be able to review a products review
+-   to be able to leave a comment on a product
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/54.png"> 
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/55.png"> 
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/56.png"> 
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/57.png"> 
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/58.png"> 
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/59.png"> 
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/60.png"> 
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/61.png"> 
+
+**Note - Safari has been used this time to test the website there was no access but have someone test the functions for me who said they worked correctly unfortunately this was asked for support. As a result, the evidence provided stated this was completed as needed.**
+
+### Device Testing
+
+To enable all device were tested and various device were explored tablets and mobiles were considered to test the game on. This would ensure this works on multiple devices.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/62.png"> 
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/63.png"> 
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/64.png"> 
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/65.png"> 
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/66.png"> 
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/67.png"> 
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/68.png"> 
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/69.png">
