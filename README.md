@@ -1,3 +1,13 @@
+<img src="https://github.com/tomod24/get_booted/blob/master/media/1.png">
+
+# Get booted is a website hosting great deals on football boots and gear.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/2.png">
+
+# Author
+
+David Thompson
+
 - [Get booted is a website hosting great deals on football boots and gear.](#get-booted-is-a-website-hosting-great-deals-on-football-boots-and-gear)
 - [Author](#author)
 - [Introduction](#introduction)
@@ -89,16 +99,6 @@
   * [Credits](#credits)
   * [Content/Media](#content-media)
   * [Acknowledgements](#acknowledgements)
-
-<img src="https://github.com/tomod24/get_booted/blob/master/media/1.png">
-
-# Get booted is a website hosting great deals on football boots and gear.
-
-<img src="https://github.com/tomod24/get_booted/blob/master/media/2.png">
-
-# Author
-
-David Thompson
 
 # Introduction
 
@@ -965,6 +965,8 @@ All the above are working progress isuses but have been identified to be fixed a
 **Category display**
 
 When selecting a category type the type of category displays twice removed the code and made amend to check it over but not amended more time necessary to work on it at the moment its an ongoing fix required.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/37.png"> 
 
 **Defensive Programming**
 
