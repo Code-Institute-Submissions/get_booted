@@ -970,29 +970,35 @@ Defensive programming has been implemented for the site to ensure it works and e
 
 * This way this can avoid any system errors with information that can lead to site functionality issues.
 
+* Forms have verification errors to let them know what fields are required.
+
 **Cascading deletes for blogs and associated comments**
 
 * For the blogs the system has its own edit and deleting of any blogs that are an issue or error. This way the blogs can be controlled on the system.
 
 * Users can add blogs and this will be a safe environment as the site can be edited if necessary. If any blogs are an issue, they can always be removed off the website.
 
+* Only Admin users can add, update and delete products. 
+
 **Unique blog slug names**
 
-* Slug names included for blogs help make the blogs unique when used and give the blog its own identity on the system.
+* Cascading deletes for blogs and associated comments were done to avoid saving data without parent objects.
 
 * This helps with the actual website function if multiple blogs are created only the comments for the specified blog appear on the website. This will prevent any comments appearing anywhere else.
+
+* Blogs have to be added with unique slug names to avoid associating comments with the wrong blogs.
 
 **404 handlers**
 
 * 404 is used for a standard response code when the communication of a website couldn’t be requested. This is to alert the user with a warning about the issue being faced.
 
-* This is used when a broken link is attempted to be accessed on the website.
+* If a page is down, can't be found because a user has modified the URL, they will be directed to a 404 page.
 
 **500 handlers**
 
 * This is when there is an internal server issue on the website. This is when an unexpected error has been account.
 
-* This will help users there is either an issue with the website and the connection it helps inform users of the problem on the website
+* If the user somehow messes up a url that deals with form posts, a 500 error, they will be directed to a 500 page.
 
 # Deployment
 
