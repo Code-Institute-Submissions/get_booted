@@ -70,26 +70,26 @@ CShare if they like a product or not.**
 
 ## Developer Goals
 
--   **Demonstrate a solid understanding of Heroku, Django and Python
+-   **Demonstrate a solid understanding of Heroku, Django and Python**
 
--   **Build a friendly simple but effective website
+-   **Build a friendly simple but effective website**
 
--   **Build up portfolio with a great project and website design
+-   **Build up portfolio with a great project and website design**
 
--   **Make the site easy to use for customers
+-   **Make the site easy to use for customers**
 
--   **Give a positive feel to the users so there happy to return to the website again and again
+-   **Give a positive feel to the users so there happy to return to the website again and again**
 
 ## Website Owner Goals
 
--   **Satisfied customers after visiting the website spreading the word about the positive website
+-   **Satisfied customers after visiting the website spreading the word about the positive website**
 
--   **To become bigger and more popular selling more products
+-   **To become bigger and more popular selling more products**
 
--   **To have an excellent review and reliable website for all customers
+-   **To have an excellent review and reliable website for all customers**
 
--   **Increased usage of the blog function due to interest.
+-   **Increased usage of the blog function due to interest.**
 
--   **Make customers become more involved with the social media features available.
+-   **Make customers become more involved with the social media features available.**
 
--   **Make sales and readily available products to increase the sales revenue
+-   **Make sales and readily available products to increase the sales revenue**
