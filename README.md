@@ -536,3 +536,29 @@ When user’s checkout they have the option if registered to use the information
 
 <img src="https://github.com/tomod24/get_booted/blob/master/media/49.png"> 
 
+### Blogs Page
+
+-   The blogs page lists out all blogs from most recent to oldest.
+
+-   Blogs page has Read more Button that brings user to Post Detail Page
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/50.png"> 
+
+### Blogs Detail Page
+
+-   This page shows the blog details.
+-   There is a comment section that will list out any comments or just an Add Comment button
+-   If a user is logged in and has written a comment, they will see an edit comment button
+-   If a user is the owner of a comment, they can edit their comments
+-   If there are more than 3 comments a Show all Comments button will be visible so the page isn’t too cluttered.
+-   Only the admin can edit comments made by unauthenticated users
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/51.png"> 
+
+### Add Comment Page
+
+-   Add comment page can be accessed by any user
+-   Collects name of user to attribute the comment to, does not have to be tied to a real user
+-   Collects comment from user
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/52.png"> 
