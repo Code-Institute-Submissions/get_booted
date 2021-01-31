@@ -870,35 +870,70 @@ All the above are working progress isuses but have been identified to be fixed a
 
 # Deployment
 
-## Deploy to GitHub Pages
+## Requirements
 
-I developed this project using Gitpod. I would amend the website as required and submit my amends to GitHub via Gitpod by committing and pushing the changes to the server. This would be completed using the GitPod terminal.
+To deploy this project , you need to have the following setup:  
+-  [GitHub Account]([https://github.com/](https://github.com/)) – code repository account  
+-  a [gmail accoount]([https://accounts.google.com/signup](https://accounts.google.com/signup)) with 2 step authentication and an application key password setup   
+-  a  [stripe account]([https://stripe.com/](https://stripe.com/))  - to collect payments, free testing API's level is fine  
+-  [AWS-S3 (Amazon Web Services - Simple Storage Storage Account)]([https://docs.aws.amazon.com/AmazonS3/latest/gsg/SigningUpforS3.html](https://docs.aws.amazon.com/AmazonS3/latest/gsg/SigningUpforS3.html)) - cloud storage service  
+-  [S3 Bucket]([https://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html](https://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html)) - a cloud storage resource with permissions for your application (name it tomod24-get-booted)  
+- [Heroku Account]([https://id.heroku.com/login](https://id.heroku.com/login)) - platform to deploy django projects## Deploy to GitPodThe easiest way to launch this project is by using gitpod.-  Go to the [Get Booted]([https://github.com/tomod24/get_booted](https://github.com/tomod24/get_booted)) github repository and select the green gitpod button  
+-  Set up your environment/workspace variables
 
--   Log into [GitHub](https://github.com/)
--   Select 'Repositories', navigate to [Get Booted](https://github.com/tomod24/get_booted) and select
--   Select the dropdown menu and your repositories if required
--   Select the settings tab under the repository title.
--   Scroll down to the GitHub pages section.
--   Select master branch the page reloads the website has now been deployed.
--   Scroll down the page after several seconds the information should state the site has been deployed in green and the link should be clickable taking you to your website. [https://github.com/tomod24/get_booted](https://github.com/tomod24/get_booted)
+| Name                  | Value                      |  
+|-----------------------|----------------------------|  
+| AWS_ACCESS_KEY_ID     | your aws access key id     |  
+| AWS_SECRET_ACCESS_KEY | your aws secret key        |  
+| AWS_S3_REGION_NAME    | your aws region            |  
+| STRIPE_PUBLIC_KEY     | your strip public key      |  
+| STRIPE_SECRET_KEY     | your stripe secret key     |  
+| STRIPE_WH_SECRET      | your strip api secret      |  
+| SECRET_KEY            | Your django app secret key |  
+| EMAIL_HOST_USER       | your gmail username        |  
+| EMAIL_HOST_PASS       | your email api password    |  
+| USE_AWS               | True                       |  
+| DEVELOPMENT           | True                       |
 
-## Deploying the application to Heroku
+-  On the terminal line run the following commands  
+  1. ```pip3 install -r requirements.txt```  
+  1.   ```python3 manage.py migrate```  
+  1. ```python3 manage.py createsuperuser```  
+    (set the superuser up with 'admin' as the name)  
+  1.   ```python3 manage.py loaddata categories.json```  
+  1. ```python3 manage.py loaddata products.json```  
+  1. ```python3 manage.py runserver```## Deploying the application to Heroku-  Log into Heroku  
+-  Create a new app in Heroku, you may have delete an old project if you are at the limit  
+-  Give it a name and set the region based on whatever is closest to you geographically  
+-  Click on the resources tab and in the add-ons field bype Heroku postgress, use the default for Hobyb Dev – Free Tier, then click the Provision button  
+-  On the Heroku dashboard, click on "settings", then scroll down and click the reveal config vars button   
+-  Copy the DATABASE_URL value over to your local environment and set it up as gitpod workspace value  
+-  Back to the Heroku screen, copy over your other config vars
 
-## Connecting to AWS
+| Name                  | Value                      |  
+|-----------------------|----------------------------|  
+| AWS_ACCESS_KEY_ID     | your aws access key id     |  
+| AWS_SECRET_ACCESS_KEY | your aws secret key        |  
+| AWS_S3_REGION_NAME    | your aws region            |  
+| DATABASE_URL          | your postgres db url       |  
+| USE_AWS               | True                       |  
+| STRIPE_PUBLIC_KEY     | your strip public key      |  
+| STRIPE_SECRET_KEY     | your stripe secret key     |  
+| STRIPE_WH_SECRET      | your strip api secret      |  
+| SECRET_KEY            | Your django app secret key |  
+| EMAIL_HOST_USER       | your gmail username        |  
+| EMAIL_HOST_PASS       | your email api password    |  
+| DISABLE_COLLECTSTATIC | 1                          |
 
-## How to run the project locally
-
-To clone the project from GitHub:
-
-1.  Click the following link for the [GitHub repository.](https://github.com/tomod24/get_booted)
-2.  Click on the code button
-3.  A dropdown window will appear titled 'Clone with HTTPS' - copy the link provided in the field below
-4.  Open your local IDE
-5.  Change the current working directory to the location where you want the cloned directory to be made
-6.  Type in git clone paste the URL copied from earlier (step 3) alongside the git command.
-7.  Press Enter, and the clone should subsequently be created
-
-  
+-  Add the heroku host to ALLOWED_HOSTS in your settings.py and check that in  
+-  Because this is a new database, you will have to set up restart your gitpod for the Heroku database from gitpod's terminal:  
+  1.   ```python3 manage.py migrate```  
+  1.   ```python3 manage.py createsuperuser``` (set superuser's name to admin)  
+  1.   ```python3 manage.py loaddata categories.json```  
+  1.    ```python3 manage.py loaddata products.json```  
+-  Now go back to Heroku, click on the "Deploy" tab, then scroll down to the "Deployment method" section and select GitHub.  
+-  Use the github linking and type in the name of the repository e.g get_booted, Then connect the heroku app to the desired GitHub repository.  
+-  On the Deployment Tab, scroll a bit further down to the "Manual Deploy" section, select the master branch then click "Deploy Branch".
 
 ## How to download github files and upload
 
