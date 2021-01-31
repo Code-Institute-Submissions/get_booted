@@ -1,45 +1,25 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<img src="https://github.com/tomod24/get_booted/blob/master/media/1.png">
 
-Welcome tomod24,
+# Get booted is a website hosting great deals on football boots and gear.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+<img src="https://github.com/tomod24/get_booted/blob/master/media/2.png">
 
-## Gitpod Reminders
+# Author
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# David Thompson
 
-`python3 -m http.server`
+# Introduction
 
-A blue button should appear to click: *Make Public*,
+Get Booted is an ecommerce website where customers can buy football boots and training gear at great prices. Products can be easily searched by price, rating or categories so users can find what they want quickly. Users can also register to the site and save their shipping information to make future purchase easier and to view their past orders.
 
-Another blue button should appear to click: *Open Browser*.
+The site hosts a celebrity blog to help engage users and upsell products. Users can add comments to these blogs and update their entries if they realize they have entered a typo. Blog entries could also be used to announce special deals.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Get Booted website [https://tomod24-get-booted.herokuapp.com/](https://tomod24-get-booted.herokuapp.com/)
 
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+- Get Booted/Boots &amp; Gear is an ecommerce website where customer can buy football boots and training gear via the website.
+- The website will provide easy access and purchasing made simple with a secure confirmation order.
+- The users will be able to provide reviews on products and rate them also this will help with the most popular items on the website.
+- The users will be able to provide like/dislike in relation to products and see other shopper&#39;s input as this will help with identify the most popular items on the website.
+- The website will provide the latest football boots with excellent prices. The website will allow users to register with the website and make purchases and store the order information.
+- The website will also have a blog where special promos, common topics, or reviews of equipment by celebrities are posted.
+- The site hosts a celebrity blog to help engage users and upsell products. Users can add comments to these blogs and update their entries if they realize they have entered a typo. Blog entries could also be used to announce special deals.
