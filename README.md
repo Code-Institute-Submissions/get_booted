@@ -131,9 +131,9 @@ Above indicated the payment type one is quick payment and the other requires aut
 
 Example Credentials of a user with past orders and authority on the account has been provided below.:
 
--  username: CHECK
+-  username: user01
 
-- password: CHECK
+- password: Redman24
 
 **Disclaimer** – please be aware the website is used for educational purposes only.
 
