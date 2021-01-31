@@ -1257,6 +1257,8 @@ MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
 
 -   [Heroku](https://id.heroku.com/login) – Used to deploy the website going live.
 
+-   [Favicon](https://favicon.io/favicon-generator/) - Used for the logo on the website giving a customer design
+
 -   Freefrontend - [https://freefrontend.com/html-css-404-page-templates/](https://freefrontend.com/html-css-404-page-templates/) acknowledgement for the 400 error template page making ideas used to create the 404 and convert to my own
 
 -   505 Error - [https://codepen.io/fcasantos/pen/LJXeKP](https://codepen.io/fcasantos/pen/LJXeKP) acknowledgement for the 500 error template page making ideas used to create the 500 and convert to my own creation
