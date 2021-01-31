@@ -1,6 +1,6 @@
 <img src="https://github.com/tomod24/get_booted/blob/master/media/1.png">
 
-# Get booted is a website hosting great deals on football boots and gear.
+# Get Booted is a website hosting great deals on football boots and gear.
 
 <img src="https://github.com/tomod24/get_booted/blob/master/media/2.png">
 
