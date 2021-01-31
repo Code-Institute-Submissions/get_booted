@@ -966,7 +966,7 @@ All the above are working progress isuses but have been identified to be fixed a
 
 When selecting a category type the type of category displays twice removed the code and made amend to check it over but not amended more time necessary to work on it at the moment its an ongoing fix required.
 
-<img src="https://github.com/tomod24/get_booted/blob/master/media/37.png"> 
+<img src="https://github.com/tomod24/get_booted/blob/master/media/77.png"> 
 
 **Defensive Programming**
 
