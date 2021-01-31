@@ -562,3 +562,107 @@ When user’s checkout they have the option if registered to use the information
 -   Collects comment from user
 
 <img src="https://github.com/tomod24/get_booted/blob/master/media/52.png"> 
+
+## Features to Improve/Implement
+
+### 1. Interactive Videos of the Items
+
+Users will be able to play videos of people having the items on and seeing what the items look like on people to give them an idea. This is a development on most clothing websites these days. As they have small clips playing on the item once its selected.
+
+### 2. Weekly Newsletter
+
+Weekly newsletter that will send out emails to customers who sign up and inform them of new products every month to keep them interested and making possible site purchases.
+
+### 3. Item Recommendations
+
+When the user logins to the website the they will have a drop-down menu of items recommended for them. This will be an algorithm that will be implemented into the site from past purchases and items viewed.
+
+### 4. Website Theme Swaps
+
+Swapping themes from light to dark. Most mobiles and browser have this these days. Therefore, the website would give a more interactive feel to the users if this was implemented into website.
+
+### 5. Site Review Score
+
+A trust pilot review score to be displayed on the website to provide a review of the website and how customer can see the website and how they feel about this. It will also help with site recommendations.
+
+### 6. Order Confirmation Email
+
+The user gets a confirmation email sent (educational purposes only works if website goes live for official use)
+
+### 7. Comment Workflow
+
+Allow users to add comments but have Admin approve them before users can edit them or see them live. Some users may put bad words in comments or some blogs may start arguments that are counterproductive to cross selling products.
+
+### 8. Delete Comments
+
+Allow comment owners and admins to delete comments without going into Django admin panels.
+
+### 9. Product Reviews & Ratings
+Allow users to rate items on 1–5-star scale and write reviews of products. Present aggregated star rating based on real user feedback and allow users to read reviews.
+
+### 10. Enhanced Blog
+Update blogs to allow posting of images, linking to products and videos.
+
+### 11. Updated Blogger Profile
+For bloggers, add image profile, and bio information that can be associated with a blog to build website trust with customers.
+
+## Scalable and Easy to Maintain Code
+
+### Make Code easier to maintain
+
+Using a block content code including content read for each website main the generic design each and simple to keep everything the same and 100% accurate. This was easy for amending purposes and ensure the design was constant throughout the website.  This enabled the different sites to be created a lot better and more efficiently when required. Its easy to break down the code with comments to ensure the information on the site was correct also and easy to debug code if necessary. Any issues with the code would come from the concept and not the base site block included on each page.
+
+# Technologies and Tools
+
+For the website the following programming languages have been used HTML, CSS, Heroku, Django and JavaScript programming languages and more
+
+-   [GitHub](https://github.com/) – The project required and believed GitHub was the best for storing the projects details and easily be used for remote access when required.
+-   [JQuery](https://jquery.com/) - used to simplify some DOM manipulation for certain functions
+-   [GitPod](https://gitpod.io/) – Great tool to be sued for the development of the website and using the platform to complete the website as required. This helped fulfil the potential to complete the website.
+-   [Heroku](https://dashboard.heroku.com) – Launch the application code via Heroku used via deployment
+
+-  Great website for building and piecing together websites together. Every tool you need.
+
+-  Used to provide unique logo for the web page icon section
+
+-  Used for wireframe creation using professional tools to support the design
+
+-  Audit you used it for your accessibility testing
+
+-  HTML5 - Used as the main language for the templates
+
+-  CSS3 - Used for styling the webpage
+
+-  JavaScript - Used mostly for DOM manipulation upon user interaction
+
+-  Python - Used for the backend of data manipulation high-level and general-purpose programming language
+
+-  Django - high-level Python Web framework that encourages rapid development and clean, pragmatic design
+
+-  Django-aullauth - Django authentication tool
+
+-  Django Crispy Forms – Useable forms for use in Django available
+
+-  Coverage- Used to calculate code coverage of python unit tests.
+
+-  Jinja2 - templating language for Python developers. It was made after Django's template. It is used to create HTML, XML or other markup formats that are returned to the user via an HTTP request.
+
+-  Pillow - Python imaging library to support opening, manipulating, and saving images.
+
+-  Psycopg2- most popular PostgreSQL database adapter for the Python programming language. Its main features are the complete implementation of the Python DB API 2.0 specification and the thread safety
+
+-  AWS S3 - Used to store static files within the server
+
+-  Gunicorn - Python WSGI HTTP Server
+
+-  Boto3 - Used to configure and manage s3 buckets
+
+-  Payment system online for completing software accepts payments and manage their businesses online.
+
+-  To handle version control.
+
+-  Used for various of fonts for websites.
+
+-  Providing icons for websites e.g. baskets icons
+
+-   To test responsiveness & functionality on various browsers.
