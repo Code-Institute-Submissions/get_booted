@@ -111,7 +111,7 @@ Get Booted website [https://tomod24-get-booted.herokuapp.com/](https://tomod24-g
 - Get Booted/Boots &amp; Gear is an ecommerce website where customer can buy football boots and training gear via the website.
 - The website will provide easy access and purchasing made simple with a secure confirmation order.
 - The users will be able to provide reviews on products and rate them also this will help with the most popular items on the website.
-- The users will be able to provide like/dislike in relation to products and see other shopper&#39;s input as this will help with identify the most popular items on the website.
+- The users will be able to provide like/dislike in relation to products and see other shopper&#39;s input as this will help with identify the most popular items on the website. 
 - The website will provide the latest football boots with excellent prices. The website will allow users to register with the website and make purchases and store the order information.
 - The website will also have a blog where special promos, common topics, or reviews of equipment by celebrities are posted.
 - The site hosts a celebrity blog to help engage users and upsell products. Users can add comments to these blogs and update their entries if they realize they have entered a typo. Blog entries could also be used to announce special deals.
