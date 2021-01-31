@@ -1253,7 +1253,7 @@ MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
 
 -   Freefrontend - [https://freefrontend.com/html-css-404-page-templates/](https://freefrontend.com/html-css-404-page-templates/) acknowledgement for the 400 error template page making ideas used to create the 404 and convert to my own
 
--   505 Error - [https://codepen.io/fcasantos/pen/LJXeKP](https://codepen.io/fcasantos/pen/LJXeKP) acknowledgement for the 500 error template page making ideas used to create the 500 and convert to my own
+-   505 Error - [https://codepen.io/fcasantos/pen/LJXeKP](https://codepen.io/fcasantos/pen/LJXeKP) acknowledgement for the 500 error template page making ideas used to create the 500 and convert to my own creation
 
 -   Blog Creation – [Codemy.com](https://www.youtube.com/watch?v=PXqRPqDjDgc) supporting me and guiding me to creating a blog and producing comments being stored using Django playlist.
 
