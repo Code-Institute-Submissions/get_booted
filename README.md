@@ -845,3 +845,152 @@ Desktop Accessibility Improvement
 
 <img src="https://github.com/tomod24/get_booted/blob/master/media/74.png">  
 
+## Bugs Discovered
+
+A list of bugs discovered have been provided and some of the additional issues face during the website build. NOtes the errors of the bugs and first implemented to get past the issue.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/75.png">  
+<img src="https://github.com/tomod24/get_booted/blob/master/media/76.png">  
+
+**Outstanding Defects**
+
+**Stripe**
+
+Stripe disabled the webhooks temporarily on the website for unknown reasons but stated the system wasn’t being used. This maybe because its not live. If there any issues please let me know so I can reenable the system I have raised a ticket and enabled it manually.
+
+**Galaxy Fold**
+
+The galaxy fold is the only device with display issues. I believe it is due to the type of phone because every other device is working correctly with the website. This may be required to be research further as to the display matters.
+
+**Date and Time Display**
+
+When checking out on the mobile the format of the time and date of the order isnt exactly how it should be it needs to fit the screen perfectly for viewing purposes but the alignment is off. This needs to be review for the best posisble format to be displayed. 
+
+All the above are working progress isuses but have been identified to be fixed and amended as required for the functionality of the website.
+
+# Deployment
+
+## Requirements
+
+To deploy this project , you need to have the following setup:  
+-  [GitHub Account]([https://github.com/](https://github.com/)) – code repository account  
+-  a [gmail accoount]([https://accounts.google.com/signup](https://accounts.google.com/signup)) with 2 step authentication and an application key password setup   
+-  a  [stripe account]([https://stripe.com/](https://stripe.com/))  - to collect payments, free testing API's level is fine  
+-  [AWS-S3 (Amazon Web Services - Simple Storage Storage Account)]([https://docs.aws.amazon.com/AmazonS3/latest/gsg/SigningUpforS3.html](https://docs.aws.amazon.com/AmazonS3/latest/gsg/SigningUpforS3.html)) - cloud storage service  
+-  [S3 Bucket]([https://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html](https://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html)) - a cloud storage resource with permissions for your application (name it tomod24-get-booted)  
+- [Heroku Account]([https://id.heroku.com/login](https://id.heroku.com/login)) - platform to deploy django projects## Deploy to GitPodThe easiest way to launch this project is by using gitpod.-  Go to the [Get Booted]([https://github.com/tomod24/get_booted](https://github.com/tomod24/get_booted)) github repository and select the green gitpod button  
+-  Set up your environment/workspace variables
+
+| Name                  | Value                      |  
+|-----------------------|----------------------------|  
+| AWS_ACCESS_KEY_ID     | your aws access key id     |  
+| AWS_SECRET_ACCESS_KEY | your aws secret key        |  
+| AWS_S3_REGION_NAME    | your aws region            |  
+| STRIPE_PUBLIC_KEY     | your strip public key      |  
+| STRIPE_SECRET_KEY     | your stripe secret key     |  
+| STRIPE_WH_SECRET      | your strip api secret      |  
+| SECRET_KEY            | Your django app secret key |  
+| EMAIL_HOST_USER       | your gmail username        |  
+| EMAIL_HOST_PASS       | your email api password    |  
+| USE_AWS               | True                       |  
+| DEVELOPMENT           | True                       |
+
+-  On the terminal line run the following commands  
+  1. ```pip3 install -r requirements.txt```  
+  1.   ```python3 manage.py migrate```  
+  1. ```python3 manage.py createsuperuser```  
+    (set the superuser up with 'admin' as the name)  
+  1.   ```python3 manage.py loaddata categories.json```  
+  1. ```python3 manage.py loaddata products.json```  
+  1. ```python3 manage.py runserver```## Deploying the application to Heroku-  Log into Heroku  
+-  Create a new app in Heroku, you may have delete an old project if you are at the limit  
+-  Give it a name and set the region based on whatever is closest to you geographically  
+-  Click on the resources tab and in the add-ons field bype Heroku postgress, use the default for Hobyb Dev – Free Tier, then click the Provision button  
+-  On the Heroku dashboard, click on "settings", then scroll down and click the reveal config vars button   
+-  Copy the DATABASE_URL value over to your local environment and set it up as gitpod workspace value  
+-  Back to the Heroku screen, copy over your other config vars
+
+| Name                  | Value                      |  
+|-----------------------|----------------------------|  
+| AWS_ACCESS_KEY_ID     | your aws access key id     |  
+| AWS_SECRET_ACCESS_KEY | your aws secret key        |  
+| AWS_S3_REGION_NAME    | your aws region            |  
+| DATABASE_URL          | your postgres db url       |  
+| USE_AWS               | True                       |  
+| STRIPE_PUBLIC_KEY     | your strip public key      |  
+| STRIPE_SECRET_KEY     | your stripe secret key     |  
+| STRIPE_WH_SECRET      | your strip api secret      |  
+| SECRET_KEY            | Your django app secret key |  
+| EMAIL_HOST_USER       | your gmail username        |  
+| EMAIL_HOST_PASS       | your email api password    |  
+| DISABLE_COLLECTSTATIC | 1                          |
+
+-  Add the heroku host to ALLOWED_HOSTS in your settings.py and check that in  
+-  Because this is a new database, you will have to set up restart your gitpod for the Heroku database from gitpod's terminal:  
+  1.   ```python3 manage.py migrate```  
+  1.   ```python3 manage.py createsuperuser``` (set superuser's name to admin)  
+  1.   ```python3 manage.py loaddata categories.json```  
+  1.    ```python3 manage.py loaddata products.json```  
+-  Now go back to Heroku, click on the "Deploy" tab, then scroll down to the "Deployment method" section and select GitHub.  
+-  Use the github linking and type in the name of the repository e.g get_booted, Then connect the heroku app to the desired GitHub repository.  
+-  On the Deployment Tab, scroll a bit further down to the "Manual Deploy" section, select the master branch then click "Deploy Branch".
+
+## How to download github files and upload
+
+To clone the project from GitHub:
+
+1.  Click the following link for the [GitHub repository.](https://github.com/tomod24/get_booted)
+2.  Click on the code button
+3.  A dropdown window will appear titled 'Clone with HTTPS' - copy the link provided in the field below
+4.  Open your local IDE
+5.  Change the current working directory to the location where you want the cloned directory to be made
+6.  Type in git clone paste the URL copied from earlier (step 3) alongside the git command.
+7.  Press Enter, and the clone should subsequently be created
+
+## Credits
+
+## Content/Media
+
+-   Colour Theme used for the website from [https://visme.co/blog/website-color-schemes/](https://visme.co/blog/website-color-schemes/) Striking and Simple selection was picked.
+
+-   Font passage from [https://www.hostinger.com/tutorials/best-html-web-fonts#:~:text=There%20are%20three%20font%20types,affordable%20hosting%20for%20your%20website](https://www.hostinger.com/tutorials/best-html-web-fonts#:~:text=There%20are%20three%20font%20types,affordable%20hosting%20for%20your%20website).
+
+-   Font Awesome – Providing various symbols and logs that can be used to provide a better and cleaner design on the website with accurate and simple logos. [https://fontawesome.com/icons](https://fontawesome.com/icons)
+
+-  [Bootstrap](https://getbootstrap.com/docs/5.0/layout/grid/)– Providing excellent support in implementing features and functions for the website e.g. footer, grids, colour codes and more
+
+-   [Color Picker](https://htmlcolorcodes.com/) – User for the colour selection examples provided in the Design section.
+
+-   [Pro Direct Soccer](https://www.prodirectsoccer.com/) – For the items information
+
+-   [Lovell Soccer](https://www.lovellsoccer.co.uk/) - For the items information
+
+-   [Phocuswire](https://www.phocuswire.com/rethinking-broken-travel-marketing-funnel) - Image used for the 500.html page
+
+-   [Lostpedia](https://lostpedia.fandom.com/wiki/Lost) – Image used for thr 404 site error
+
+-   [Heroku](https://id.heroku.com/login) – Used to deploy the website going live.
+
+-   Freefrontend - [https://freefrontend.com/html-css-404-page-templates/](https://freefrontend.com/html-css-404-page-templates/) acknowledgement for the 400 error template page making ideas used to create the 404 and convert to my own
+
+-   505 Error - [https://codepen.io/fcasantos/pen/LJXeKP](https://codepen.io/fcasantos/pen/LJXeKP) acknowledgement for the 500 error template page making ideas used to create the 500 and convert to my own
+
+-   Blog Creation – [Codemy.com](https://www.youtube.com/watch?v=PXqRPqDjDgc) supporting me and guiding me to creating a blog and producing comments being stored using Django playlist.
+
+-   [Stackoverflow](https://stackoverflow.com/questions/15843581/how-to-correctly-iterate-through-getelementsbyclassname) – using the getElementsByClassName for adding the more comments section javascript
+
+-   [Stackoverflow](https://stackoverflow.com/questions/44779042/aws-how-to-fix-s3-event-replacing-space-with-sign-in-object-key-names-in-js) -Helping with the issue with the aws Heroku images not loading
+
+-   [Geeksforgeeks](https://www.geeksforgeeks.org/updateview-class-based-views-django/) – Edit comment section added via the website and support form
+
+## Acknowledgements
+
+-   I would like to thank Anthony Ngene who stuck by me from when I needed a guide and help to keep me motivated and see the end goal. He’s been a great help to me making sure am ok and challenged me every step to keep me thinking and learning. I wouldn’t have kept going if it weren’t for him.
+
+-   Tim Nelson and Code Institute for the template created during the course which helped to get me going with the work required.
+
+-   I would like to thank Malia Havlicek not only helps me keeps me laughing and coding fun but now I can class as a friend.  Malia made coding fun for me and said its about getting past the obstacle instead of around. Always ask how things are and we have good confirmations about general coding, working life and home life. This person is a great help to me kept me going. I appreciate all the help I’ve received.
+
+-   For my friends and family who encouraged me to keep going and don’t forget your nearly there.
+
+-   Lastly the tutors I have bothered them give them headaches and not let them 5 minutes peace when I’ve had issues all of them really helped me and had me thinking and figure out issues together. Whenever I needed help, they were there and they deserve praise just as much as the people. Without the guidance I could have been stuck and not made as much progress as I had liked. So Thank you for your time and patience helping me.
