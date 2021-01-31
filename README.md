@@ -960,6 +960,40 @@ When checking out on the mobile the format of the time and date of the order isn
 
 All the above are working progress isuses but have been identified to be fixed and amended as required for the functionality of the website.
 
+**Defensive Programming**
+
+Defensive programming has been implemented for the site to ensure it works and errors do occur there can be a response provided as to what’s happened with the site. If a page is down, can’t be found, verification errors or there has been any issues with comments being posted on the site that may need removing. This is all implemented to help the site and ensure its being ran correctly, efficiently and errors and issues can be resolved.
+
+**Form validation**
+
+* For validation has been implemented to ensure when the users are creating accounts or purchases the information needs to be correct and relevant for the fields used.
+
+* This way this can avoid any system errors with information that can lead to site functionality issues.
+
+**Cascading deletes for blogs and associated comments**
+
+* For the blogs the system has its own edit and deleting of any blogs that are an issue or error. This way the blogs can be controlled on the system.
+
+* Users can add blogs and this will be a safe environment as the site can be edited if necessary. If any blogs are an issue, they can always be removed off the website.
+
+**Unique blog slug names**
+
+* Slug names included for blogs help make the blogs unique when used and give the blog its own identity on the system.
+
+* This helps with the actual website function if multiple blogs are created only the comments for the specified blog appear on the website. This will prevent any comments appearing anywhere else.
+
+**404 handlers**
+
+* 404 is used for a standard response code when the communication of a website couldn’t be requested. This is to alert the user with a warning about the issue being faced.
+
+* This is used when a broken link is attempted to be accessed on the website.
+
+**500 handlers**
+
+* This is when there is an internal server issue on the website. This is when an unexpected error has been account.
+
+* This will help users there is either an issue with the website and the connection it helps inform users of the problem on the website
+
 # Deployment
 
 ## Requirements
