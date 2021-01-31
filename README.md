@@ -65,31 +65,31 @@ The information shown by users is for testing purposes and does not reflect the 
 -   **Feel they are making safe and secure payments**
 -   **Purchase a reliable product from a legit website**
 -   **Read site blog posts for helpful information, special promos or celebrity reviews**
--   **Share if they like a product or not.**
+CShare if they like a product or not.**
 -   **Review past orders**
 
 ## Developer Goals
 
-### <![if !supportLists]>· <![endif]>Demonstrate a solid understanding of Heroku, Django and Python
+-   **Demonstrate a solid understanding of Heroku, Django and Python
 
-### <![if !supportLists]>· <![endif]>Build a friendly simple but effective website
+-   **Build a friendly simple but effective website
 
-### <![if !supportLists]>· <![endif]>Build up portfolio with a great project and website design
+-   **Build up portfolio with a great project and website design
 
-### <![if !supportLists]>· <![endif]>Make the site easy to use for customers
+-   **Make the site easy to use for customers
 
-### <![if !supportLists]>· <![endif]>Give a positive feel to the users so there happy to return to the website again and again
+-   **Give a positive feel to the users so there happy to return to the website again and again
 
 ## Website Owner Goals
 
-### <![if !supportLists]>· <![endif]>Satisfied customers after visiting the website spreading the word about the positive website
+-   **Satisfied customers after visiting the website spreading the word about the positive website
 
-### <![if !supportLists]>· <![endif]>To become bigger and more popular selling more products
+-   **To become bigger and more popular selling more products
 
-### <![if !supportLists]>· <![endif]>To have an excellent review and reliable website for all customers
+-   **To have an excellent review and reliable website for all customers
 
-### <![if !supportLists]>· <![endif]>Increased usage of the blog function due to interest.
+-   **Increased usage of the blog function due to interest.
 
-### <![if !supportLists]>· <![endif]>Make customers become more involved with the social media features available.
+-   **Make customers become more involved with the social media features available.
 
-### <![if !supportLists]>· <![endif]>Make sales and readily available products to increase the sales revenue
+-   **Make sales and readily available products to increase the sales revenue
