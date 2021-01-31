@@ -57,39 +57,94 @@ The information shown by users is for testing purposes and does not reflect the 
 
 ## User Goals
 
--   **Easily access the items on the website to purchases**
--   **Ability to find any items they wish e.g. football boots or training gear with minimal effort.**
--   **Enjoyable website via the design and have them interested in how the website looks for an appealing affect.**
--   **Register for the website very simply when they wish to purchase the items.**
--   **Navigate through the shop quickly & easily.**
--   **Feel they are making safe and secure payments**
--   **Purchase a reliable product from a legit website**
--   **Read site blog posts for helpful information, special promos or celebrity reviews**
-CShare if they like a product or not.**
--   **Review past orders**
+- Easily access the items on the website to purchases
+- Ability to find any items they wish e.g. football boots or training gear with minimal effort.
+- Enjoyable website via the design and have them interested in how the website looks for an appealing affect.
+- *Register for the website very simply when they wish to purchase the items.
+- *Navigate through the shop quickly & easily.
+- Feel they are making safe and secure payments
+- Purchase a reliable product from a legit website
+- Read site blog posts for helpful information, special promos or celebrity reviews
+CShare if they like a product or not.
+- Review past orders**
 
 ## Developer Goals
 
--   **Demonstrate a solid understanding of Heroku, Django and Python**
+- Demonstrate a solid understanding of Heroku, Django and Python
 
--   **Build a friendly simple but effective website**
+- Build a friendly simple but effective website
 
--   **Build up portfolio with a great project and website design**
+- Build up portfolio with a great project and website design
 
--   **Make the site easy to use for customers**
+- Make the site easy to use for customers
 
--   **Give a positive feel to the users so there happy to return to the website again and again**
+- Give a positive feel to the users so there happy to return to the website again and again
 
 ## Website Owner Goals
 
--   **Satisfied customers after visiting the website spreading the word about the positive website**
+- Satisfied customers after visiting the website spreading the word about the positive website
 
--   **To become bigger and more popular selling more products**
+- To become bigger and more popular selling more products
 
--   **To have an excellent review and reliable website for all customers**
+- To have an excellent review and reliable website for all customers
 
--   **Increased usage of the blog function due to interest.**
+- Increased usage of the blog function due to interest.
 
--   **Make customers become more involved with the social media features available.**
+- Make customers become more involved with the social media features available.
 
--   **Make sales and readily available products to increase the sales revenue**
+- Make sales and readily available products to increase the sales revenue
+
+## User Stories
+
+&quot;As a customer I would like to purchase items with ease and be able to do the following&quot;
+
+A list of the customer requirements has been provided below for the website to fulfil. Providing the user requirements will be better and reduce the number of future improvements until required.
+
+Products
+
+- to find products with easy accessibility
+- to be able to purchase items with minimal fuss
+- to be able to view available products
+- to be able to view individual products for more details.
+- To be able to sort the products by category, price and more
+- to be able to search for products using the search bar
+- to be able to use the search bar to select a specific type of product
+- to have the ability to navigate through the website very ease
+- to add show how many users have liked/disliked a product review e.g. rating or comment
+- I don&#39;t want to see all the comments if there are more than 3
+- I want the ability to see all the comments if there are more than 3
+
+Site Registration/User Account
+
+- to register on the website
+- to have the ability to check previous order history
+- to be able to login and logout the website securely
+- if logged in allow user to add or update like/dislike of products
+
+Checkout/basket
+
+- the ability to clear the basket if they have a incorrect order and start again
+- add items to the basket
+- remove items
+- edit the quantity of products
+- view items
+- view the cost individually and total
+- enter contact details when checking out
+- enter card details
+- feel safe and secure when ordering products
+- receive email order has been confirmed.
+- View and order.
+
+Blog
+
+- Users with access to Django Admin can add/update/delete blogs
+- Allow any user to read posted blogs
+- Post blogs in a most recent to oldest on own page
+- Allow users to easily navigate to blog posts
+
+Errors
+
+- Catch errors gracefully
+- Provide styled 500 page
+- Provide styled 404 page
+
