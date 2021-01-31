@@ -177,3 +177,44 @@ When searching for colours for the website design I wanted something that was a 
 Font awesome has reliable icons available on the website which has been used. This is to make it easier for customer to find what their looking for e.g. basket for products selected and magnifying glass for searching for items. I believe this is the best website to use for icons when required as they are very simple to implement into the website. Below I have added the icons used as they will give the site better navigation indication and interactive icons for users. Its universal and known worldwide what the icons are used for on most websites. Therefore, it is best to keep the website simple and easy to follow as this practice is used on many websites online today. Font awesome is a personal preference but always useful when implementing the icons onto websites.
 
 <img src="https://github.com/tomod24/get_booted/blob/master/media/6.png">
+
+## Content Section
+
+- The content layout of the website has been set via the device size. Desktop having 4 items tablets large and small have 2-3 and mobiles 1 item for easily scrolling.
+- All items are going to be displayed if required but the user can select an item type from the all products dropdown
+- The item will be the main focus as this is to stand out to get the customers/users attention to possibly have interest and make a purchase
+- This will help with the sales on the website if the content is standing out for users.
+- The users can select the item they see when all items are displayed when scrolling or they can search for an item. This will display any items with keywords that the user types. Generic words wont display items
+- The user will see the rating of the item, name and price displayed when the item displays from the search and the category selected
+- Users can give the item a like or dislike if logged in or change their existing input.
+
+## Home Page Image
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/7.png">
+
+The main homepage image was chosen to represent the site&#39;s purpose of being a place to buy football boots.
+
+**Product Images**
+
+ Images of products were chosen for this site that have clear backgrounds. I made sure the imagery uploaded was clear and not fuzzy and didn&#39;t have shadows to best highlight what the site is selling. This made it easy to have the imagery stand out against a light gray background
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/8.png">
+
+## Product List Layout Considerations
+
+- The product layout of the website has been set via the device size to make the site easy to read and products easier to view:
+
+| DEVICE | NUMBER OF PRODUCTS |
+| --- | --- |
+| Desktop | 4 |
+| Tablet Horizontal | 3 |
+| Tablet Vertical | 2 |
+| Phones | 1 |
+
+- On page load, all items are going to be displayed
+- The item&#39;s image will be the main focus to get the customers/users attention to possibly have interest and make a purchase
+- Well organized, logical dropdowns allow users to reduce the number of products a user sees.
+- A search tool bar will be displayed so users can search with words for products they are interested
+- Along with the image, the user will see the rating of the item, name and price displayed when the item displays from the search and the category selected
+- Users can click on a product image to see details of the product
+
