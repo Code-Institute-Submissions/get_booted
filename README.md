@@ -666,3 +666,67 @@ For the website the following programming languages have been used HTML, CSS, He
 -  Providing icons for websites e.g. baskets icons
 
 -   To test responsiveness & functionality on various browsers.
+
+## Data Infrastructure
+
+### Database Choice  
+
+
+The website required using an easily accessible database to store the information when being obtained for users on the website. E.g. boots and gear. As a result, MySQL was the best solution for completing the project in the best manner. As a result, this would help users with admin credentials add more products required and the website would update with new products instantly.
+
+As a result a entity relational diagram has been provided to show the relationship between the various tables and how they connect. Using key to connect the tables together and make the access and connections for the website accurate and reliable. This also stores the information about each of the products available and where they relate to on the website. The categories make it easy to group items together this can be anything from men’s football boots to kids gear on the website.
+
+The products relate to their own category correctly if the user only wants a particular item such as items in price order. The information of users is also provided making it unique for the user experience and not sharing emails or logins with others. This will prevent anyone using the same emails and passwords to login. The email has to be assigned to one user. Anyone tries to use the same email the user will be notified its being used.  The user information will also store the user details on the system e.g., name, address. This will also include the users order history if they require it or the website owners need to collate information on popular items.
+
+The users in the future will be able to complete blogs on items at the moment it will be only provided to sports celebrities who use the website until the feature is implemented. The blog will store the user’s opinion and experience of a particular item. This will be useful for other readers when deciding on the product. The users can also add reviews of items with a brief comment how they feel about the item. This will be useful for others users with a rating at the end to justify their comment and help others.
+
+The order information will provide details of the users order history and store the information in the records for reference if required. This will be helpful if any users have any problems with the products bought. This will be a feedback feature in future reference. At this current moment they will be using email format until this is set up.
+
+Below is a diagram of the entity relational diagram information provided above explaining the use of the ERD and how it supports the website.
+
+### ERD
+
+Below is a diagram of the entity relational diagram information provided above explaining the use of the ERD and how it supports the website.
+
+<img src="https://github.com/tomod24/get_booted/blob/master/media/53.png"> 
+
+### Data Models
+
+Several Data models were used to create this website. Django authorization and All Auth data models are not discussed in this section as they were not developed by me.
+
+#### BLOG_POST
+
+A blogpost will store the “celebrity blogger’s opinion and experience of a particular item. This will be useful for other readers when deciding on the product.
+
+-   Title – required, max length 200 char field
+-   Slug – auto created slug field, max length 200
+-   Author – Foreign Key Field to user ID
+-   Update on – Auto created Date Time Field
+-   Content – required, Text Field
+-   Status -Integer field to determine if blog is shared or not (defaulted to 1 to share)
+
+#### COMMENT
+
+A comment will store a user’s opinion about a blog post.
+
+-   post – Foreign Key Field to blog id
+-   name – required, max length 255, Char Field
+-   body – required, Text field
+-   date – Auto created Date Time Field
+-   comment owner – Foreign Key to user id (admin if made anonymously)
+
+#### CHECKOUT_ORDER
+
+A checkout order holds all the data for a given order. I used the model from the boutique ado example project.
+
+#### CHECKOUT_ORDERLINEITEM
+
+A checkout line item represents one specific product ordered with its size, quantity, total and a reference to the order and product. I used the model from the boutique ado example.
+
+#### PRODUCTS_CATEGORY
+
+This data model is used to make sorting and grouping of products easier. I used the model from the boutique ado example. In the future I would update it so that the name is unique to the system as that caused me trouble when I entered the same category twice by accident.
+
+#### PRODUCTS_PRODUCT
+
+This data model is used to store a given product along with a sku, name, description, price, rating, image, has sizes and category-field. I used the model from the boutique ado example.
